@@ -1,668 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>EgyptMonorail.com | Strategic Digital Asset for Egypt's Monorail Economy</title>
-  <meta name="description" content="EgyptMonorail.com is a strategic category-level digital asset aligned with Egypt's live monorail ecosystem: mobility, passenger information, ticketing, advertising, project communications and commercial access.">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-  <meta name="theme-color" content="#071923">
-  <link rel="canonical" href="https://egyptmonorail.com/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="EgyptMonorail.com">
-  <meta property="og:title" content="EgyptMonorail.com — A Strategic Digital Gateway">
-  <meta property="og:description" content="A category-defining digital asset for the commercial and digital ecosystem forming around Egypt's monorail network.">
-  <meta property="og:url" content="https://egyptmonorail.com/">
-  <meta property="og:image" content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="EgyptMonorail.com — Strategic Digital Asset">
-  <meta name="twitter:description" content="A clear digital identity for mobility, media, ticketing and commercial use around Egypt's monorail network.">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =========================================================
-       GOOGLE ANALYTICS 4
-       Create a separate GA4 Property for EgyptMonorail.com.
-       Replace ONLY:
-       G-D7CS4LBW1K  ->  your Measurement ID (G-XXXXXXXXXX)
-       ========================================================= -->
-  <script>
-    window.EGYPT_MONORAIL_GA4_ID = 'G-D7CS4LBW1K';
-  </script>
-
-  <script>
-    (function () {
-      const id = window.EGYPT_MONORAIL_GA4_ID;
-      if (!id || id === 'G-D7CS4LBW1K') return;
-
-      const s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
-      document.head.appendChild(s);
-
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function(){ dataLayer.push(arguments); };
-      gtag('js', new Date());
-      gtag('config', id, {
-        send_page_view: true,
-        cookie_flags: 'SameSite=None;Secure'
-      });
-    })();
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
-      {
-        "@type":"WebSite",
-        "@id":"https://egyptmonorail.com/#website",
-        "url":"https://egyptmonorail.com/",
-        "name":"EgyptMonorail.com",
-        "inLanguage":"en"
-      },
-      {
-        "@type":"WebPage",
-        "@id":"https://egyptmonorail.com/#webpage",
-        "url":"https://egyptmonorail.com/",
-        "name":"EgyptMonorail.com | Strategic Digital Asset for Egypt's Monorail Economy",
-        "description":"A strategic digital asset aligned with Egypt's monorail ecosystem, including mobility, passenger information, ticketing, advertising and project communications.",
-        "isPartOf":{"@id":"https://egyptmonorail.com/#website"},
-        "inLanguage":"en",
-        "dateModified":"2026-08-23"
-      },
-      {
-        "@type":"Organization",
-        "name":"Snap The Name",
-        "url":"https://snapthename.com",
-        "email":"hussein.lashin@snapthename.com",
-        "telephone":"+201000001802"
-      }
-    ]
-  }
-  </script>
-
-<style>
-:root{
-  --bg:#06131c;--bg2:#091d28;--panel:#0d2632;--panel2:#102f3c;
-  --white:#f7fbfc;--muted:#9eb1b8;--line:rgba(255,255,255,.10);
-  --gold:#d6b46d;--gold2:#f0dda8;--teal:#24a5a2;--teal2:#67d0ca;
-  --blue:#66a9ff;--shadow:0 30px 80px rgba(0,0,0,.28);--radius:24px;--max:1180px
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--white);font-family:"Inter",Arial,sans-serif;line-height:1.7;overflow-x:hidden}
-a{color:inherit;text-decoration:none} img{display:block;max-width:100%}
-button,input,select,textarea{font:inherit}
-.container{width:min(calc(100% - 34px),var(--max));margin-inline:auto}
-.kicker{display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2)}
-.kicker::before{content:"";width:28px;height:2px;background:var(--gold);border-radius:99px}
-.section{padding:90px 0}.section.alt{background:#081a24}
-.section-head{max-width:760px;margin-bottom:42px}
-.section-head h2{font-family:"Montserrat",sans-serif;font-size:clamp(30px,4vw,48px);line-height:1.22;margin:10px 0 14px}
-.section-head p{color:var(--muted);font-size:16px}
-.btn{min-height:52px;padding:13px 24px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:800;border:1px solid transparent;cursor:pointer;transition:.22s ease}
-.btn:hover{transform:translateY(-2px)}
-.btn-gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#10202a;box-shadow:0 14px 35px rgba(214,180,109,.20)}
-.btn-outline{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.04);color:#fff}
-.btn-outline:hover{border-color:var(--gold);color:var(--gold2)}
-.btn-teal{background:linear-gradient(135deg,var(--teal2),var(--teal));color:#052126}
-
-/* HEADER */
-header{position:fixed;z-index:100;top:0;left:0;right:0;background:rgba(6,19,28,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
-.nav{height:76px;display:flex;justify-content:space-between;align-items:center;gap:20px}
-.brand{display:flex;align-items:center;gap:12px}.brand img{height:39px;width:auto;border-radius:8px}
-.brand-text strong{display:block;font-family:"Montserrat",sans-serif;font-size:14px;letter-spacing:.02em}
-.brand-text small{display:block;color:var(--muted);font-size:9px;margin-top:1px}
-.navlinks{display:flex;align-items:center;gap:22px;color:#dbe5e8;font-size:12px;font-weight:700}
-.navlinks a:hover{color:var(--gold2)}
-.nav-asset{font-family:"Montserrat",sans-serif;color:var(--gold2);font-size:15px;font-weight:800}
-
-/* HERO */
-.hero{min-height:790px;padding:135px 0 78px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 85% 15%,rgba(36,165,162,.18),transparent 26%),radial-gradient(circle at 12% 85%,rgba(214,180,109,.12),transparent 30%),linear-gradient(135deg,#051019,#092531 65%,#0a3d45)}
-.hero::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;top:-220px;left:-170px;border:1px solid rgba(255,255,255,.06);box-shadow:0 0 0 70px rgba(255,255,255,.018),0 0 0 140px rgba(255,255,255,.012)}
-.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:58px;align-items:center}
-.hero-badge{display:inline-flex;align-items:center;gap:9px;padding:7px 13px;border-radius:999px;background:rgba(102,169,255,.09);border:1px solid rgba(102,169,255,.18);color:#9bc6ff;font-size:11px;font-weight:800;margin-bottom:18px}
-.hero h1{font-family:"Montserrat",sans-serif;font-size:clamp(43px,5.2vw,72px);line-height:1.08;letter-spacing:-2px;margin-bottom:20px}
-.hero h1 span{color:var(--gold2)}
-.hero-lead{color:#c5d3d7;font-size:17px;line-height:1.9;max-width:700px}
-.hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}
-.hero-proof{display:flex;flex-wrap:wrap;gap:16px;margin-top:25px;color:#9eb1b8;font-size:11px}
-.hero-proof span{display:inline-flex;align-items:center;gap:7px}.hero-proof i{color:var(--teal2)}
-.hero-card{border:1px solid rgba(255,255,255,.13);border-radius:30px;overflow:hidden;background:rgba(255,255,255,.05);box-shadow:var(--shadow)}
-.hero-card img{width:100%;aspect-ratio:16/10;object-fit:cover}.hero-card-body{padding:18px 20px}
-.hero-card-label{color:var(--gold2);font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
-.hero-card h3{font-size:17px;margin:5px 0 7px}.hero-card p{font-size:11px;color:var(--muted)}
-
-/* CONTEXT */
-.context-wrap{margin-top:-45px;position:relative;z-index:5}
-.context-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#0b222d;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}
-.context-item{padding:24px 20px;border-right:1px solid var(--line)}.context-item:last-child{border-right:0}
-.context-item small{display:block;color:var(--muted);font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
-.context-item strong{display:block;font-family:"Montserrat",sans-serif;color:#fff;font-size:22px;margin:3px 0}
-.context-item span{display:block;color:var(--gold2);font-size:9px}
-
-/* WHY */
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.why-card{padding:27px;border-radius:22px;background:linear-gradient(145deg,#0c2530,#0a1e28);border:1px solid var(--line)}
-.why-icon{width:45px;height:45px;border-radius:14px;display:grid;place-items:center;color:#06232a;background:linear-gradient(135deg,var(--teal2),var(--teal));margin-bottom:18px}
-.why-card h3{font-family:"Montserrat";font-size:18px;margin-bottom:9px}.why-card p{color:var(--muted);font-size:13px}
-.source-inline{display:inline-flex;margin-top:13px;color:#94c2ff;font-size:10px;font-weight:800;border-bottom:1px solid rgba(148,194,255,.3)}
-
-/* USE CASES */
-.use-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.use-card{padding:28px;border-radius:24px;border:1px solid var(--line);background:#0a202b;position:relative;overflow:hidden}
-.use-card::after{content:"";position:absolute;width:130px;height:130px;border-radius:50%;right:-60px;top:-60px;background:rgba(36,165,162,.06)}
-.use-no{font-family:"Montserrat";font-size:11px;font-weight:800;color:var(--gold2);margin-bottom:14px;display:block}
-.use-card h3{font-family:"Montserrat";font-size:19px;margin-bottom:8px}.use-card p{font-size:13px;color:var(--muted)}
-.use-value{margin-top:17px;padding-top:14px;border-top:1px solid var(--line);color:#dce9eb;font-size:11px;font-weight:700}
-
-/* VALUE */
-.value-box{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:center;padding:42px;border-radius:30px;background:linear-gradient(135deg,#0a2631,#0c3a42);border:1px solid rgba(255,255,255,.13)}
-.value-word{font-family:"Montserrat";font-size:clamp(36px,5vw,66px);font-weight:800;line-height:1.04;color:var(--gold2)}
-.value-list{display:grid;gap:13px}
-.value-row{display:grid;grid-template-columns:145px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
-.value-row:last-child{border-bottom:0}.value-row strong{font-family:"Montserrat";font-size:13px;color:#fff}.value-row span{font-size:12px;color:#b6c7cb}
-
-/* FIT */
-.fit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.fit-card{padding:22px;border-radius:19px;border:1px solid var(--line);background:#0b222d}
-.fit-card i{font-size:19px;color:var(--gold2);margin-bottom:14px}.fit-card h3{font-size:14px;margin-bottom:6px}.fit-card p{font-size:11px;color:var(--muted)}
-
-/* ASSETS */
-.assets-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.asset-card{padding:20px 17px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-.asset-card.main{border-color:rgba(214,180,109,.42);background:rgba(214,180,109,.07)}
-.asset-card strong{font-family:"Montserrat";font-size:13px;display:block;margin-bottom:5px}.asset-card small{color:var(--muted);font-size:9px}
-
-/* CONTACT */
-.contact{padding:92px 0;background:radial-gradient(circle at 15% 10%,rgba(214,180,109,.12),transparent 28%),linear-gradient(135deg,#071923,#0a333b)}
-.contact-box{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:start}
-.contact-copy h2{font-family:"Montserrat";font-size:clamp(31px,4vw,47px);line-height:1.2;margin:10px 0 14px}
-.contact-copy p{color:var(--muted);font-size:14px}.contact-direct{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
-.form-card{background:#fff;color:#152832;padding:28px;border-radius:26px;box-shadow:var(--shadow)}
-.form-card h3{font-family:"Montserrat";font-size:19px;margin-bottom:5px}.form-card>p{color:#62767c;font-size:11px;margin-bottom:18px}
-.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field.full{grid-column:1/-1}
-label{display:block;font-size:10px;font-weight:800;color:#4d6268;margin-bottom:5px}
-input,select,textarea{width:100%;border:1px solid #d7e0e2;background:#fbfdfd;color:#152832;border-radius:12px;padding:11px 12px;outline:none}
-input:focus,select:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(36,165,162,.10)}
-textarea{min-height:92px;resize:vertical}
-.consent{grid-column:1/-1;display:flex;gap:9px;align-items:flex-start;background:#f3f7f7;border:1px solid #dde7e8;padding:11px 12px;border-radius:12px;color:#546a70;font-size:10px}
-.consent input{width:17px;height:17px;flex:none;margin-top:1px;accent-color:var(--teal)}
-.form-actions{grid-column:1/-1}.form-actions .btn{width:100%}
-.form-note{grid-column:1/-1;color:#75888d;font-size:9px;text-align:center;margin-top:2px}
-.form-status{grid-column:1/-1;min-height:18px;text-align:center;color:#14716f;font-size:10px;font-weight:800}
-
-/* FOOTER */
-footer{padding:44px 0 92px;background:#041018;border-top:1px solid var(--line)}
-.footer-grid{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:34px}
-footer h3{font-family:"Montserrat";font-size:13px;margin-bottom:8px}footer p,footer a{font-size:9px;color:#8fa4aa}
-.footer-links{display:grid;gap:6px}
-.legal{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);color:#758b91;font-size:9px;line-height:1.8}
-.owner-warning{display:none}
-body.analytics-setup .owner-warning{display:block;position:fixed;z-index:9999;left:12px;right:12px;bottom:12px;background:#fff1c7;color:#5b4714;padding:10px 14px;border-radius:12px;border:1px solid #e5c668;text-align:center;font-size:11px;font-weight:800}
-.mobile-cta{display:none;position:fixed;z-index:90;left:10px;right:10px;bottom:10px;padding:7px;border-radius:18px;background:rgba(4,16,24,.9);border:1px solid var(--line);backdrop-filter:blur(14px)}
-.mobile-cta .btn{width:100%;min-height:48px}
-
-@media(max-width:960px){
-  .navlinks{display:none}.hero-grid,.value-box,.contact-box{grid-template-columns:1fr}.hero{min-height:auto}
-  .context-grid{grid-template-columns:1fr 1fr}.context-item:nth-child(2){border-right:0}.context-item:nth-child(-n+2){border-bottom:1px solid var(--line)}
-  .fit-grid{grid-template-columns:1fr 1fr}.assets-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}
-}
-@media(max-width:650px){
-  .container{width:min(calc(100% - 22px),var(--max))}.nav{height:68px}.brand-text small{display:none}.nav-asset{font-size:12px}
-  .hero{padding:110px 0 65px}.hero h1{font-size:40px;letter-spacing:-1.2px}.hero-lead{font-size:14px}
-  .hero-actions{display:grid}.hero-actions .btn{width:100%}.context-wrap{margin-top:-28px}.context-item{padding:17px 14px}.context-item strong{font-size:17px}
-  .section{padding:68px 0}.why-grid,.use-grid,.fit-grid,.assets-grid,.form-grid{grid-template-columns:1fr}
-  .field.full,.consent,.form-actions,.form-note,.form-status{grid-column:1}.value-box{padding:28px 22px}.value-row{grid-template-columns:1fr;gap:4px}
-  .footer-grid{grid-template-columns:1fr}footer{padding-bottom:105px}.mobile-cta{display:block}
-}
-</style>
-</head>
-
-<body>
-
-<div class="owner-warning">
-  GA4 setup reminder: replace G-D7CS4LBW1K with the Measurement ID for EgyptMonorail.com.
-</div>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Egypt Monorail | East & West Nile Routes, Stations and Verified Updates</title>
+<meta name="description" content="Independent guide to Egypt's monorail network: East Nile and West Nile routes, verified operating status, stations, interchanges and project updates.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://egyptmonorail.com/">
+<meta property="og:type" content="website"><meta property="og:title" content="Egypt Monorail | East & West Nile Routes, Stations and Verified Updates"><meta property="og:description" content="Independent guide to Egypt's monorail network: East Nile and West Nile routes, verified operating status, stations, interchanges and project updates."><meta property="og:url" content="https://egyptmonorail.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7CS4LBW1K"></script>
+</head><body>
 
 <header>
   <div class="container nav">
-    <a class="brand" href="#top" data-track="nav_home">
-      <img src="https://i.ibb.co/BHhQ5LHz/SNAP-THE-NAME.png" alt="Snap The Name">
-      <div class="brand-text">
-        <strong>Snap The Name</strong>
-        <small>Strategic digital assets</small>
-      </div>
-    </a>
-
-    <nav class="navlinks" aria-label="Main navigation">
-      <a href="#why-now" data-track="nav_why_now">Why now</a>
-      <a href="#use-cases" data-track="nav_use_cases">Use cases</a>
-      <a href="#buyer-fit" data-track="nav_buyer_fit">Buyer fit</a>
-      <a href="#asset" data-track="nav_asset">The asset</a>
+    <a class="brand" href="index.html">EgyptMonorail.com</a>
+    <nav class="navlinks">
+      <a href="east-nile/">East Nile</a>
+      <a href="west-nile/">West Nile</a>
+      <a href="stations/">Stations</a>
+      <a href="updates/">Updates</a>
+      <a href="advertising/">Advertising</a>
+      <a href="strategic-asset/">Strategic Asset</a>
     </nav>
-
-    <div class="nav-asset">EgyptMonorail.com</div>
+    <div class="independent">Independent information platform</div>
   </div>
 </header>
 
-<main id="top">
 
+<main>
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <div class="hero-badge">
-        <i class="fa-solid fa-arrow-trend-up"></i>
-        LIVE INFRASTRUCTURE · COMMERCIAL ECOSYSTEM
-      </div>
-
-      <h1>A strategic digital gateway for <span>Egypt's monorail economy.</span></h1>
-
-      <p class="hero-lead">
-        EgyptMonorail.com is a category-level digital asset aligned with the ecosystem now forming around
-        Egypt's live monorail network — passenger information, advertising, ticketing, mobility services,
-        project communications and commercial access.
-      </p>
-
+      <div class="hero-badge">VERIFIED NETWORK INFORMATION · COMMERCIAL CONTEXT</div>
+      <h1>Understand <span>Egypt's monorail network</span> from verified sources.</h1>
+      <p>Routes, operating status, interchanges, project updates and the commercial ecosystem around East and West Nile Monorail — built as an independent reference, not a placeholder domain page.</p>
       <div class="hero-actions">
-        <a class="btn btn-gold strategic-fit-cta" href="#contact" data-placement="hero">
-          Discuss strategic fit <i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <a class="btn btn-outline" href="#use-cases" data-track="hero_use_cases">See commercial use cases</a>
-      </div>
-
-      <div class="hero-proof">
-        <span><i class="fa-solid fa-circle-check"></i> Category-defining .com</span>
-        <span><i class="fa-solid fa-circle-check"></i> Egypt + Monorail clarity</span>
-        <span><i class="fa-solid fa-circle-check"></i> Available for strategic acquisition</span>
+        <a class="btn btn-gold" href="east-nile/" data-track="hero_east_nile" aria-label="Explore the East Nile Monorail guide">Explore East Nile</a>
+        <a class="btn btn-outline" href="updates/" data-track="hero_updates" aria-label="View the latest verified Egypt Monorail updates">Latest verified updates</a>
       </div>
     </div>
-
     <div class="hero-card">
-      <img src="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg" alt="Egypt Monorail digital concept">
-      <div class="hero-card-body">
-        <div class="hero-card-label">The digital asset</div>
-        <h3>EgyptMonorail.com</h3>
-        <p>A concise, memorable identity with direct geographic and infrastructure alignment. This page is independent and is not an official monorail passenger website.</p>
-      </div>
+      <img src="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg" alt="Egypt Monorail">
+      <div class="hero-card-body"><h3>Independent monorail reference</h3><p>Facts are separated from commercial positioning and linked back to official sources wherever possible.</p></div>
     </div>
   </div>
 </section>
 
-<div class="container context-wrap">
-  <div class="context-grid">
-    <div class="context-item"><small>Commercial service</small><strong>May 2026</strong><span>East of Nile entered service</span></div>
-    <div class="context-item"><small>East line live now</small><strong>16 / 22</strong><span>stations serving customers</span></div>
-    <div class="context-item"><small>Two-line network</small><strong>~96 KM</strong><span>East + West of Nile</span></div>
-    <div class="context-item"><small>Total network</small><strong>35 stations</strong><span>across both lines</span></div>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><small>East Nile</small><strong>56.5 km</strong><span>22 stations · fully operational</span></div>
+    <div class="stat"><small>West Nile</small><strong>43.8 km</strong><span>13 stations · planned for 2027</span></div>
+    <div class="stat"><small>Network total</small><strong>35 stations</strong><span>100.3 km by current NAT figures</span></div>
+    <div class="stat"><small>East service</small><strong>06:00–21:00</strong><span>daily, per June 2026 ministry update</span></div>
   </div>
 </div>
 
-<section class="section" id="why-now" data-section="why_now">
+<section class="section" data-section="network">
   <div class="container">
-    <div class="section-head">
-      <span class="kicker">Why now</span>
-      <h2>The commercial context has changed.</h2>
-      <p>
-        Egypt's monorail is no longer only an infrastructure project under construction.
-        Commercial operations have begun, passenger-facing technology is live, and the network is
-        entering a phase where digital access, commercial inventory and public information matter more.
-      </p>
-    </div>
-
-    <div class="why-grid">
-      <article class="why-card">
-        <div class="why-icon"><i class="fa-solid fa-train"></i></div>
-        <h3>Live commercial operations</h3>
-        <p>Alstom announced the start of commercial service on the first portion of the East of Nile line on 6 May 2026, with 16 of 22 stations serving customers.</p>
-        <a class="source-inline official-source"
-           href="https://www.alstom.com/press-releases-news/2026/5/new-era-smart-and-sustainable-mobility-egypt-commercial-service-begins-east-nile-monorail-transforming-urban-connectivity-across-greater-cairo"
-           target="_blank" rel="noopener noreferrer" data-source="alstom_commercial_service">Alstom source ↗</a>
-      </article>
-
-      <article class="why-card">
-        <div class="why-icon"><i class="fa-solid fa-ticket"></i></div>
-        <h3>Digital ticketing is operational</h3>
-        <p>Indra says its automatic sales, validation and access-control technology is operational on the new monorail, with account-based ticketing designed for future digital payment and transport integration.</p>
-        <a class="source-inline official-source"
-           href="https://www.indragroup.com/en/news/indra-is-driving-a-new-era-of-mobility-in-cairo-with-its-passenger-centric-account-based-ticketing-abt-technology-for-the-new-monorail"
-           target="_blank" rel="noopener noreferrer" data-source="indra_ticketing">Indra source ↗</a>
-      </article>
-
-      <article class="why-card">
-        <div class="why-icon"><i class="fa-solid fa-users"></i></div>
-        <h3>High-capacity urban infrastructure</h3>
-        <p>Alstom states the system is designed for ultimate capacity of up to 45,000 passengers per hour, per direction — creating a substantial audience around a long-term mobility asset.</p>
-        <a class="source-inline official-source"
-           href="https://www.alstom.com/monorail-story-greater-cairo"
-           target="_blank" rel="noopener noreferrer" data-source="alstom_network_story">Alstom network overview ↗</a>
-      </article>
-
-      <article class="why-card">
-        <div class="why-icon"><i class="fa-solid fa-network-wired"></i></div>
-        <h3>A multi-layer ecosystem</h3>
-        <p>The opportunity around the network is broader than trains: passenger information, payments, advertising, mobility integration, project communication and commercial partnerships all create digital entry points.</p>
-      </article>
+    <div class="section-head"><span class="kicker">Network</span><h2>Two lines. Two different operating stages.</h2><p>East Nile is in full commercial operation. West Nile remains under development with launch indicated for 2027.</p></div>
+    <div class="grid2">
+      <article class="card"><span class="tag">LIVE</span><h3>East Nile Monorail</h3><p>Cairo Stadium in Nasr City to Justice City in the New Capital. 56.5 km, 22 stations, with interchange to Metro Line 3 at Cairo Stadium and LRT at Arts and Culture City.</p><a class="source" href="east-nile/">Open line guide →</a></article>
+      <article class="card"><span class="tag">UNDER DEVELOPMENT</span><h3>West Nile Monorail</h3><p>New October to Wadi El Nile. 43.8 km and 13 stations, linking western growth areas with major transport connections.</p><a class="source" href="west-nile/">Open line guide →</a></article>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="use-cases" data-section="use_cases">
+<section class="section alt" data-section="latest">
   <div class="container">
-    <div class="section-head">
-      <span class="kicker">Strategic use cases</span>
-      <h2>One name. Multiple commercial roles.</h2>
-      <p>The value of EgyptMonorail.com is not simply that it describes the project. Its value depends on whether the owner can turn that clarity into discovery, trust, demand or commercial access.</p>
-    </div>
-
-    <div class="use-grid">
-      <article class="use-card">
-        <span class="use-no">01 · MEDIA & ADVERTISING</span>
-        <h3>Advertising inventory gateway</h3>
-        <p>A focused destination for monorail media opportunities, station or corridor inventory, campaign enquiries, formats, audience context and advertiser lead generation.</p>
-        <div class="use-value">Commercial logic: turn infrastructure attention into advertiser demand.</div>
-      </article>
-
-      <article class="use-card">
-        <span class="use-no">02 · PASSENGER INFORMATION</span>
-        <h3>Rider information destination</h3>
-        <p>A memorable address for routes, stations, connections, service information, accessibility, rider guidance and public-facing network education.</p>
-        <div class="use-value">Commercial logic: own the intuitive category destination people remember.</div>
-      </article>
-
-      <article class="use-card">
-        <span class="use-no">03 · TICKETING & MOBILITY</span>
-        <h3>Digital mobility gateway</h3>
-        <p>A branded entry point for ticketing education, payment journeys, rider accounts, partner services or future mobility integrations.</p>
-        <div class="use-value">Commercial logic: connect a complex mobility system to one clear digital address.</div>
-      </article>
-
-      <article class="use-card">
-        <span class="use-no">04 · PROJECT & ECOSYSTEM</span>
-        <h3>Project communications hub</h3>
-        <p>A category-level microsite for updates, stakeholder communication, media resources, vendor information, case studies or long-term project visibility.</p>
-        <div class="use-value">Commercial logic: strengthen clarity around a nationally visible infrastructure category.</div>
-      </article>
+    <div class="section-head"><span class="kicker">Latest verified status · Updated August 2026</span><h2>East Nile is now fully operational.</h2><p>The most important correction to older material is that East Nile is no longer limited to 16 operational stations.</p></div>
+    <div class="grid3">
+      <article class="card"><span class="tag">27 JUN 2026</span><h3>All 22 East Nile stations in service</h3><p>The Ministry of Transport announced full operation from Cairo Stadium to Justice City after the second phase entered service.</p><a class="source official-source" data-source="sis_june_2026" target="_blank" rel="noopener" href="https://sis.gov.eg/en/media-center/news/2nd-phase-of-east-nile-monorail-launched-saturday-expanding-link-to-new-capital/">Official update ↗</a></article>
+      <article class="card"><span class="tag">CURRENT ROUTE DATA</span><h3>56.5 km East Nile</h3><p>NAT lists 22 stations from Cairo Stadium to Justice City and an operating speed of 80 km/h.</p><a class="source official-source" data-source="nat_east" target="_blank" rel="noopener" href="https://www.nat.gov.eg/LocationActivity.aspx?id=2089">NAT source ↗</a></article>
+      <article class="card"><span class="tag">WEST NILE</span><h3>43.8 km · 13 stations</h3><p>Government reporting states the West Nile line is planned to enter operation in 2027.</p><a class="source official-source" data-source="sis_west_2027" target="_blank" rel="noopener" href="https://sis.gov.eg/ar/%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9/%D8%B4%D8%A6%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D9%85%D8%B9-%D9%85%D8%B3%D8%A6%D9%88%D9%84%D9%8A%D9%86-%D8%AD%D9%83%D9%88%D9%85%D9%8A%D9%8A%D9%86/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A-%D9%8A%D8%AA%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D9%85%D9%88%D9%82%D9%81-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D9%88%D8%A7%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A-%D9%88%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9-%D9%84%D9%84%D8%B7%D8%B1%D9%82/">Government update ↗</a></article>
     </div>
   </div>
 </section>
 
-<section class="section" data-section="ownership_logic">
+<section class="section" data-section="utility">
   <div class="container">
-    <div class="value-box">
-      <div>
-        <span class="kicker">Why ownership can matter</span>
-        <div class="value-word">Clarity compounds.</div>
-      </div>
-
-      <div class="value-list">
-        <div class="value-row"><strong>Immediate meaning</strong><span>The name communicates the geography and category before a visitor reads a single line of copy.</span></div>
-        <div class="value-row"><strong>Memorability</strong><span>A short category-level .com is easier to recall, share internally, place in campaigns and use offline.</span></div>
-        <div class="value-row"><strong>Campaign efficiency</strong><span>A dedicated address can support focused campaigns without forcing every use case through a large corporate website.</span></div>
-        <div class="value-row"><strong>Strategic control</strong><span>Ownership secures the most direct category identity instead of leaving it available to another commercial participant.</span></div>
-      </div>
+    <div class="section-head"><span class="kicker">Useful paths</span><h2>Useful information, built around real rider and market needs.</h2><p>Explore verified station information, operational updates and the commercial context developing around the network.</p></div>
+    <div class="grid3">
+      <a class="card" href="stations/"><h3>Stations & interchanges</h3><p>Verified station information and interchange points without invented placeholders.</p></a>
+      <a class="card" href="updates/"><h3>Project updates</h3><p>A dated timeline of meaningful official operational changes.</p></a>
+      <a class="card" href="advertising/"><h3>Commercial ecosystem</h3><p>Why advertising and other commercial layers matter around a live transport network.</p></a>
     </div>
   </div>
 </section>
 
-<section class="section alt" id="buyer-fit" data-section="buyer_fit">
+<section class="section alt" data-section="business">
   <div class="container">
-    <div class="section-head">
-      <span class="kicker">Who could benefit</span>
-      <h2>Most relevant buyer profiles.</h2>
-      <p>The strongest fit is with organizations that already have an economic, operational or digital reason to capture attention around Egypt's monorail ecosystem.</p>
-    </div>
-
-    <div class="fit-grid">
-      <article class="fit-card"><i class="fa-solid fa-rectangle-ad"></i><h3>Transport advertising operators</h3><p>For media inventory, advertiser acquisition and commercial campaign gateways.</p></article>
-      <article class="fit-card"><i class="fa-solid fa-train-subway"></i><h3>Mobility & rail operators</h3><p>For passenger information, project communications and long-term network visibility.</p></article>
-      <article class="fit-card"><i class="fa-solid fa-credit-card"></i><h3>Ticketing & payment technology</h3><p>For digital rider journeys, payment education and mobility-service integration.</p></article>
-      <article class="fit-card"><i class="fa-solid fa-building"></i><h3>Infrastructure partners</h3><p>For stakeholder communication, project showcases and ecosystem information.</p></article>
-      <article class="fit-card"><i class="fa-solid fa-mobile-screen-button"></i><h3>Urban mobility platforms</h3><p>For route discovery, multimodal journeys and passenger-facing information services.</p></article>
-      <article class="fit-card"><i class="fa-solid fa-chart-line"></i><h3>Commercial ecosystem partners</h3><p>For high-intent campaigns connected to stations, corridors and surrounding development.</p></article>
+    <div class="business-box">
+      <div><span class="kicker">Strategic context</span><h2>A strategic digital asset within the monorail ecosystem.</h2><p>EgyptMonorail.com may also have strategic relevance to organizations operating across mobility, advertising, ticketing, passenger information or infrastructure communications.</p></div>
+      <a class="btn btn-gold business-cta" data-placement="homepage" href="strategic-asset/">Explore strategic use cases</a>
     </div>
   </div>
 </section>
-
-<section class="section" id="asset" data-section="asset">
-  <div class="container">
-    <div class="section-head">
-      <span class="kicker">The digital asset</span>
-      <h2>Lead with EgyptMonorail.com. Keep optional defensive coverage behind it.</h2>
-      <p>The primary acquisition case is EgyptMonorail.com itself. Related geographic assets can be discussed separately where defensive coverage or campaign segmentation creates additional value.</p>
-    </div>
-
-    <div class="assets-grid">
-      <div class="asset-card main"><strong>EgyptMonorail.com</strong><small>Primary category-level digital asset</small></div>
-      <div class="asset-card"><strong>GreaterCairoMonorail.com</strong><small>Metro-area defensive coverage</small></div>
-      <div class="asset-card"><strong>EastCairoMonorail.com</strong><small>East Cairo geographic coverage</small></div>
-      <div class="asset-card"><strong>WestCairoMonorail.com</strong><small>West Cairo geographic coverage</small></div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contact" data-section="contact">
-  <div class="container contact-box">
-    <div class="contact-copy">
-      <span class="kicker">Strategic acquisition</span>
-      <h2>Does the asset fit a commercial objective you already have?</h2>
-      <p>If EgyptMonorail.com could strengthen your advertising, mobility, passenger-information, ticketing or project-communications strategy, start a focused conversation. No public asking price is shown because strategic fit and use case matter first.</p>
-
-      <div class="contact-direct">
-        <a class="btn btn-teal whatsapp-intent"
-          href="https://wa.me/201000001802?text=Hello%2C%20I%27d%20like%20to%20discuss%20the%20strategic%20fit%20of%20EgyptMonorail.com%20for%20our%20business."
-          target="_blank" rel="noopener noreferrer" data-placement="contact_direct">
-          <i class="fa-brands fa-whatsapp"></i> WhatsApp
-        </a>
-
-        <a class="btn btn-outline email-intent"
-          href="mailto:hussein.lashin@snapthename.com?subject=Strategic%20Fit%20%E2%80%94%20EgyptMonorail.com"
-          data-placement="contact_direct">
-          <i class="fa-solid fa-envelope"></i> Email
-        </a>
-      </div>
-    </div>
-
-    <div class="form-card">
-      <h3>Request a strategic-fit discussion</h3>
-      <p>Complete the fields below. Submitting opens your email client with the information pre-filled; nothing is counted as a confirmed lead until you actually send the message.</p>
-
-      <form id="fitForm" class="form-grid" novalidate>
-        <div class="field"><label for="fullName">Name</label><input id="fullName" type="text" required placeholder="Your name"></div>
-        <div class="field"><label for="company">Company</label><input id="company" type="text" required placeholder="Company name"></div>
-        <div class="field"><label for="workEmail">Work email</label><input id="workEmail" type="email" required placeholder="name@company.com"></div>
-
-        <div class="field">
-          <label for="useCase">Primary interest</label>
-          <select id="useCase" required>
-            <option value="">Select...</option>
-            <option>Advertising / Media</option>
-            <option>Passenger Information</option>
-            <option>Ticketing / Mobility</option>
-            <option>Project Communications</option>
-            <option>Infrastructure / Partnership</option>
-            <option>Domain Acquisition</option>
-            <option>Other</option>
-          </select>
-        </div>
-
-        <div class="field full"><label for="message">Context (optional)</label><textarea id="message" placeholder="What commercial objective could this asset support?"></textarea></div>
-
-        <label class="consent">
-          <input id="consent" type="checkbox" required>
-          <span>I agree to share these details solely for a discussion about EgyptMonorail.com and related digital assets.</span>
-        </label>
-
-        <div class="form-actions">
-          <button class="btn btn-gold" type="submit">Prepare discussion email <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-
-        <div class="form-status" id="formStatus"></div>
-        <div class="form-note">This form does not silently transmit data. Your email application will open and you decide whether to send.</div>
-      </form>
-    </div>
-  </div>
-</section>
-
 </main>
+
 
 <footer>
   <div class="container">
     <div class="footer-grid">
-      <div><h3>EgyptMonorail.com</h3><p>Independent strategic digital asset presented by Snap The Name.</p></div>
-      <div><h3>Explore</h3><div class="footer-links"><a href="#why-now">Why now</a><a href="#use-cases">Use cases</a><a href="#buyer-fit">Buyer fit</a><a href="#asset">The asset</a></div></div>
-      <div><h3>Contact</h3><div class="footer-links"><a class="email-intent" href="mailto:hussein.lashin@snapthename.com?subject=EgyptMonorail.com">Email</a><a class="whatsapp-intent" target="_blank" rel="noopener noreferrer" href="https://wa.me/201000001802?text=Hello%2C%20I%27d%20like%20to%20discuss%20EgyptMonorail.com.">WhatsApp</a></div></div>
+      <div><h3>EgyptMonorail.com</h3><p>Independent information platform covering Egypt's monorail network, routes, stations, operating updates and commercial context.</p></div>
+      <div><h3>Network</h3><div class="footer-links"><a href="east-nile/">East Nile</a><a href="west-nile/">West Nile</a><a href="stations/">Stations</a><a href="updates/">Updates</a></div></div>
+      <div><h3>Business</h3><div class="footer-links"><a href="advertising/">Advertising</a><a href="strategic-asset/">Strategic Asset</a><a href="mailto:hussein.lashin@snapthename.com">Contact</a></div></div>
     </div>
-
-    <div class="legal">
-      <strong>Independent / non-official website.</strong>
-      EgyptMonorail.com and this landing page are not affiliated with, endorsed by, or connected to the
-      National Authority for Tunnels, the Egyptian Government, Alstom, Indra, Orascom Construction,
-      The Arab Contractors, or any official public transport authority. Company and project names are referenced
-      only to explain publicly documented market context and potential strategic use cases. All operational facts
-      should be verified with the cited official corporate or government sources before commercial reliance.
-    </div>
+    <div class="legal"><strong>Independent / non-official website.</strong> EgyptMonorail.com is not affiliated with or endorsed by the National Authority for Tunnels, the Egyptian Government, Alstom, Indra, Orascom Construction, The Arab Contractors, or any official public transport authority. Operational information is linked to cited official sources and should be rechecked before travel or commercial reliance.</div>
   </div>
 </footer>
 
-<div class="mobile-cta">
-  <a class="btn btn-gold strategic-fit-cta" href="#contact" data-placement="mobile_fixed">Discuss strategic fit</a>
-</div>
-
-<script>
-(function(){
-  'use strict';
-
-  const params = new URLSearchParams(location.search);
-  if(params.get('analytics_setup') === '1'){ document.body.classList.add('analytics-setup'); }
-
-  const attribution = {
-    utm_source: params.get('utm_source') || sessionStorage.getItem('em_utm_source') || '',
-    utm_medium: params.get('utm_medium') || sessionStorage.getItem('em_utm_medium') || '',
-    utm_campaign: params.get('utm_campaign') || sessionStorage.getItem('em_utm_campaign') || '',
-    utm_content: params.get('utm_content') || sessionStorage.getItem('em_utm_content') || ''
-  };
-
-  Object.keys(attribution).forEach(function(key){
-    if(attribution[key]) sessionStorage.setItem('em_' + key, attribution[key]);
-  });
-
-  function track(name, extra){
-    const payload = Object.assign({
-      site_domain:'egyptmonorail.com',
-      utm_source:attribution.utm_source,
-      utm_medium:attribution.utm_medium,
-      utm_campaign:attribution.utm_campaign,
-      utm_content:attribution.utm_content
-    }, extra || {});
-    if(typeof window.gtag === 'function'){ window.gtag('event', name, payload); }
-  }
-
-  document.querySelectorAll('[data-track]').forEach(function(el){
-    el.addEventListener('click', function(){
-      track(el.getAttribute('data-track'), {link_text:(el.textContent || '').trim()});
-    });
-  });
-
-  document.querySelectorAll('.strategic-fit-cta').forEach(function(el){
-    el.addEventListener('click', function(){
-      track('strategic_fit_cta_click', {placement:el.getAttribute('data-placement') || 'unknown'});
-    });
-  });
-
-  document.querySelectorAll('.official-source').forEach(function(el){
-    el.addEventListener('click', function(){
-      track('official_source_click', {source_name:el.getAttribute('data-source') || 'official_source',destination_url:el.href});
-    });
-  });
-
-  document.querySelectorAll('.whatsapp-intent').forEach(function(el){
-    el.addEventListener('click', function(){
-      track('whatsapp_contact_intent', {placement:el.getAttribute('data-placement') || 'footer'});
-    });
-  });
-
-  document.querySelectorAll('.email-intent').forEach(function(el){
-    el.addEventListener('click', function(){
-      track('email_contact_intent', {placement:el.getAttribute('data-placement') || 'footer'});
-    });
-  });
-
-  const seenSections = {};
-  if('IntersectionObserver' in window){
-    const observer = new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if(!entry.isIntersecting) return;
-        const sectionName = entry.target.getAttribute('data-section');
-        if(!sectionName || seenSections[sectionName]) return;
-        seenSections[sectionName] = true;
-        track('section_view', {section_name:sectionName});
-      });
-    }, {threshold:.35});
-    document.querySelectorAll('[data-section]').forEach(function(section){ observer.observe(section); });
-  }
-
-  const scrollSeen = {};
-  function trackScroll(){
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    if(max <= 0) return;
-    const pct = Math.round((window.scrollY / max) * 100);
-    [25,50,75,90].forEach(function(mark){
-      if(pct >= mark && !scrollSeen[mark]){
-        scrollSeen[mark] = true;
-        track('scroll_depth', {percent:mark});
-      }
-    });
-  }
-  window.addEventListener('scroll', trackScroll, {passive:true});
-
-  const form = document.getElementById('fitForm');
-  const status = document.getElementById('formStatus');
-
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    status.textContent = '';
-
-    const name = document.getElementById('fullName').value.trim();
-    const company = document.getElementById('company').value.trim();
-    const email = document.getElementById('workEmail').value.trim();
-    const useCase = document.getElementById('useCase').value.trim();
-    const message = document.getElementById('message').value.trim();
-    const consent = document.getElementById('consent').checked;
-
-    if(!name || !company || !email || !useCase){ status.textContent = 'Please complete the required fields.'; return; }
-    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){ status.textContent = 'Please enter a valid work email.'; return; }
-    if(!consent){ status.textContent = 'Please confirm the consent box.'; return; }
-
-    track('contact_form_intent', {company_name:company,use_case:useCase});
-
-    const subject = encodeURIComponent('Strategic Fit — EgyptMonorail.com — ' + company);
-    const body = encodeURIComponent(
-      'Hello Hussein,\n\n' +
-      'I would like to discuss the strategic fit of EgyptMonorail.com.\n\n' +
-      'Name: ' + name + '\n' +
-      'Company: ' + company + '\n' +
-      'Work email: ' + email + '\n' +
-      'Primary interest: ' + useCase + '\n' +
-      'Context: ' + (message || '-') + '\n\n' +
-      'Source page: ' + location.href + '\n'
-    );
-
-    status.textContent = 'Opening your email application...';
-    setTimeout(function(){
-      window.location.href='mailto:hussein.lashin@snapthename.com?subject='+subject+'&body='+body;
-    },150);
-  });
-
-})();
-</script>
-
-</body>
-</html>
+<script src="assets/site.js"></script>
+</body></html>

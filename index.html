@@ -12,9 +12,6 @@
 <meta name="description"
 content="Independent Egypt Monorail guide covering East Nile and West Nile routes, stations, operating updates, interchanges, property near monorail stations and commercial advertising context.">
 
-<meta name="keywords"
-content="Egypt Monorail, Cairo Monorail, East Nile Monorail, West Nile Monorail, Egypt Monorail stations, New Cairo Monorail, New Capital Monorail, Sheikh Zayed Monorail, October Monorail, property near monorail, monorail advertising Egypt">
-
 <meta name="robots"
 content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
@@ -103,7 +100,7 @@ anonymize_ip:true
 
 
 <!-- =====================================================
-STRUCTURED DATA
+SCHEMA
 ===================================================== -->
 
 <script type="application/ld+json">
@@ -124,6 +121,8 @@ STRUCTURED DATA
   "@type":"Organization",
   "name":"EgyptMonorail.com",
   "url":"https://egyptmonorail.com/",
+  "email":"hussein.lashin@snapthename.com",
+  "telephone":"+201000001802",
   "description":"Independent non-official information platform covering Egypt's monorail network."
 }
 </script>
@@ -147,7 +146,7 @@ STRUCTURED DATA
       "name":"Is the East Nile Monorail operational?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"Yes. The East Nile Monorail is in commercial operation across its 22-station route. Operational details should still be rechecked against official sources before travel."
+        "text":"Yes. The East Nile Monorail is in commercial operation across its 22-station route. Operational details should be rechecked against official sources before travel."
       }
     },
     {
@@ -163,7 +162,7 @@ STRUCTURED DATA
       "name":"Can I search for property near monorail stations?",
       "acceptedAnswer":{
         "@type":"Answer",
-        "text":"Yes. The site is developing a station-linked property discovery layer focused on New Cairo, the New Administrative Capital, October and Sheikh Zayed."
+        "text":"Yes. EgyptMonorail.com is developing a station-linked property discovery layer focused on New Cairo, the New Administrative Capital, October and Sheikh Zayed."
       }
     }
   ]
@@ -173,39 +172,27 @@ STRUCTURED DATA
 
 <style>
 
-/* =====================================================
-ROOT
-===================================================== */
-
 :root{
 
 --navy:#0B1F2A;
-
 --navy-2:#103442;
-
 --navy-3:#163F4B;
 
 --gold:#C7A75B;
-
 --gold-light:#E6CE91;
-
 --gold-soft:#F5ECD5;
 
 --white:#FFFFFF;
-
 --soft:#F5F7F8;
-
 --cream:#F8F4EA;
 
 --line:#DDE4E7;
 
 --ink:#172129;
-
 --muted:#66737C;
 
 --green:#28795B;
-
---red:#A84242;
+--whatsapp:#25D366;
 
 --shadow:
 0 20px 60px rgba(11,31,42,.10);
@@ -220,9 +207,7 @@ ROOT
 }
 
 
-/* =====================================================
-RESET
-===================================================== */
+/* RESET */
 
 *{
 box-sizing:border-box;
@@ -255,34 +240,24 @@ line-height:1.65;
 }
 
 img{
-
 max-width:100%;
-
 display:block;
-
 }
 
 a{
-
 color:inherit;
-
 text-decoration:none;
-
 }
 
 button,
 input,
 select,
 textarea{
-
 font:inherit;
-
 }
 
 button{
-
 cursor:pointer;
-
 }
 
 .container{
@@ -307,23 +282,18 @@ top:10px;
 
 background:#fff;
 
-padding:
-10px 14px;
+padding:10px 14px;
 
 z-index:99999;
 
 }
 
 .skip-link:focus{
-
 left:10px;
-
 }
 
 
-/* =====================================================
-HEADER
-===================================================== */
+/* HEADER */
 
 .site-header{
 
@@ -381,7 +351,6 @@ white-space:nowrap;
 .brand-mark{
 
 width:36px;
-
 height:36px;
 
 border-radius:50%;
@@ -406,7 +375,7 @@ font-weight:800;
 
 display:flex;
 
-gap:19px;
+gap:18px;
 
 margin-left:auto;
 
@@ -425,10 +394,7 @@ transition:.2s;
 }
 
 .navlinks a:hover{
-
-color:
-var(--gold-light);
-
+color:var(--gold-light);
 }
 
 .independent{
@@ -470,9 +436,7 @@ border-radius:10px;
 }
 
 
-/* =====================================================
-HERO
-===================================================== */
+/* HERO */
 
 .hero{
 
@@ -606,10 +570,7 @@ transition:.2s;
 }
 
 .btn:hover{
-
-transform:
-translateY(-2px);
-
+transform:translateY(-2px);
 }
 
 .btn-gold{
@@ -630,6 +591,27 @@ color:#fff;
 
 border-color:
 rgba(255,255,255,.30);
+
+}
+
+.btn-whatsapp{
+
+background:
+var(--whatsapp);
+
+color:#fff;
+
+}
+
+.btn-email{
+
+background:#fff;
+
+color:
+var(--navy);
+
+border:
+1px solid var(--line);
 
 }
 
@@ -672,9 +654,7 @@ object-fit:cover;
 }
 
 .hero-card-body{
-
 padding:25px;
-
 }
 
 .eyebrow,
@@ -720,16 +700,11 @@ var(--muted);
 }
 
 
-/* =====================================================
-STATUS
-===================================================== */
+/* STATUS */
 
 .status-section{
-
 position:relative;
-
 z-index:10;
-
 }
 
 .stats{
@@ -766,9 +741,7 @@ border-right:
 }
 
 .stat:last-child{
-
 border-right:0;
-
 }
 
 .stat small{
@@ -813,9 +786,7 @@ margin-top:3px;
 }
 
 
-/* =====================================================
-GENERAL SECTIONS
-===================================================== */
+/* GENERAL */
 
 .section{
 
@@ -827,10 +798,8 @@ scroll-margin-top:90px;
 }
 
 .section.alt{
-
 background:
 var(--soft);
-
 }
 
 .section-head{
@@ -842,9 +811,7 @@ margin-bottom:36px;
 }
 
 .section-head.narrow{
-
 max-width:760px;
-
 }
 
 .section-head h2,
@@ -886,9 +853,7 @@ margin:0;
 }
 
 
-/* =====================================================
-INTENT CARDS
-===================================================== */
+/* INTENT */
 
 .intent-grid{
 
@@ -991,9 +956,7 @@ color:#86651C;
 }
 
 
-/* =====================================================
-CARDS
-===================================================== */
+/* CARDS */
 
 .grid2{
 
@@ -1123,9 +1086,7 @@ color:#86651C;
 }
 
 .source:hover{
-
 text-decoration:underline;
-
 }
 
 .source-row{
@@ -1141,9 +1102,7 @@ margin-top:16px;
 }
 
 
-/* =====================================================
-STATION INTELLIGENCE
-===================================================== */
+/* STATION */
 
 .station-box{
 
@@ -1235,9 +1194,7 @@ margin-bottom:6px;
 }
 
 
-/* =====================================================
-CORRIDORS
-===================================================== */
+/* CORRIDORS */
 
 .corridor-grid{
 
@@ -1304,9 +1261,7 @@ margin:0;
 }
 
 
-/* =====================================================
-DATA PILL
-===================================================== */
+/* DATA */
 
 .data-pill-grid{
 
@@ -1344,9 +1299,7 @@ color:#42515A;
 }
 
 
-/* =====================================================
-FORMS
-===================================================== */
+/* FORMS */
 
 .form-wrap{
 
@@ -1461,9 +1414,7 @@ box-shadow:
 }
 
 textarea{
-
 resize:vertical;
-
 }
 
 .consent{
@@ -1489,6 +1440,19 @@ margin-top:4px;
 
 }
 
+.form-actions{
+
+display:grid;
+
+grid-template-columns:
+1fr 1fr;
+
+gap:10px;
+
+margin-top:8px;
+
+}
+
 .form-status{
 
 font-size:13px;
@@ -1498,12 +1462,12 @@ var(--green);
 
 font-weight:600;
 
+margin-bottom:0;
+
 }
 
 
-/* =====================================================
-UPDATES
-===================================================== */
+/* UPDATE */
 
 .timeline-date{
 
@@ -1526,14 +1490,10 @@ border-radius:999px;
 }
 
 
-/* =====================================================
-FAQ
-===================================================== */
+/* FAQ */
 
 .faq{
-
 max-width:900px;
-
 }
 
 .faq-item{
@@ -1573,9 +1533,7 @@ margin:0;
 }
 
 
-/* =====================================================
-TRUST
-===================================================== */
+/* TRUST */
 
 .trust-box{
 
@@ -1649,15 +1607,11 @@ font-size:14px;
 }
 
 .trust-point strong{
-
 color:#fff;
-
 }
 
 
-/* =====================================================
-BOTTOM CTA
-===================================================== */
+/* BOTTOM CTA */
 
 .bottom-cta{
 
@@ -1728,9 +1682,61 @@ min-width:220px;
 }
 
 
-/* =====================================================
-FOOTER
-===================================================== */
+/* FLOATING WHATSAPP */
+
+.whatsapp-float{
+
+position:fixed;
+
+right:20px;
+
+bottom:20px;
+
+z-index:3000;
+
+display:flex;
+
+align-items:center;
+
+gap:9px;
+
+background:
+var(--whatsapp);
+
+color:#fff;
+
+font-weight:800;
+
+padding:
+13px 18px;
+
+border-radius:999px;
+
+box-shadow:
+0 12px 35px rgba(0,0,0,.22);
+
+transition:.2s;
+
+}
+
+.whatsapp-float:hover{
+
+transform:
+translateY(-3px);
+
+box-shadow:
+0 16px 40px rgba(0,0,0,.27);
+
+}
+
+.whatsapp-icon{
+
+font-size:18px;
+
+}
+
+
+/* FOOTER */
 
 .site-footer{
 
@@ -1739,7 +1745,7 @@ background:#071820;
 color:#D7E1E5;
 
 padding:
-54px 0 26px;
+54px 0 90px;
 
 }
 
@@ -1748,7 +1754,7 @@ padding:
 display:grid;
 
 grid-template-columns:
-1.5fr 1fr 1fr;
+1.3fr 1fr 1fr 1fr;
 
 gap:35px;
 
@@ -1767,9 +1773,7 @@ margin-top:0;
 }
 
 .footer-grid p{
-
 color:#9EB0B7;
-
 }
 
 .footer-links{
@@ -1783,16 +1787,16 @@ gap:9px;
 }
 
 .footer-links a{
-
 color:#BAC8CE;
-
 }
 
 .footer-links a:hover{
+color:var(--gold-light);
+}
 
-color:
-var(--gold-light);
-
+.footer-whatsapp{
+color:#57E28A !important;
+font-weight:700;
 }
 
 .legal{
@@ -1813,22 +1817,16 @@ color:#8EA0A8;
 }
 
 
-/* =====================================================
-TABLET
-===================================================== */
+/* TABLET */
 
 @media(max-width:980px){
 
 .independent{
-
 display:none;
-
 }
 
 .menu-button{
-
 display:block;
-
 }
 
 .navlinks{
@@ -1838,7 +1836,6 @@ position:absolute;
 top:68px;
 
 left:20px;
-
 right:20px;
 
 display:none;
@@ -1858,9 +1855,7 @@ border-radius:14px;
 }
 
 .navlinks.open{
-
 display:flex;
-
 }
 
 .hero-grid,
@@ -1873,16 +1868,11 @@ grid-template-columns:1fr;
 }
 
 .stats{
-
-grid-template-columns:
-repeat(2,1fr);
-
+grid-template-columns:repeat(2,1fr);
 }
 
 .stat:nth-child(2){
-
 border-right:0;
-
 }
 
 .intent-grid,
@@ -1895,52 +1885,38 @@ repeat(2,1fr);
 }
 
 .data-pill-grid{
+grid-template-columns:repeat(2,1fr);
+}
 
-grid-template-columns:
-repeat(2,1fr);
-
+.footer-grid{
+grid-template-columns:repeat(2,1fr);
 }
 
 }
 
 
-/* =====================================================
-MOBILE
-===================================================== */
+/* MOBILE */
 
 @media(max-width:650px){
 
 .container{
-
-width:
-calc(100% - 28px);
-
+width:calc(100% - 28px);
 }
 
 .hero{
-
-padding:
-57px 0 52px;
-
+padding:57px 0 52px;
 }
 
 .hero h1{
-
 font-size:41px;
-
 }
 
 .hero-lead{
-
 font-size:17px;
-
 }
 
 .section{
-
-padding:
-62px 0;
-
+padding:62px 0;
 }
 
 .stats,
@@ -1952,7 +1928,8 @@ padding:
 .trust-points,
 .catchment-grid,
 .footer-grid,
-.data-pill-grid{
+.data-pill-grid,
+.form-actions{
 
 grid-template-columns:1fr;
 
@@ -1968,23 +1945,17 @@ border-bottom:
 }
 
 .stat:last-child{
-
 border-bottom:0;
-
 }
 
 .btn{
-
 width:100%;
-
 }
 
 .station-box,
 .trust-box,
 .bottom-cta{
-
 padding:28px;
-
 }
 
 .bottom-cta{
@@ -1996,8 +1967,19 @@ align-items:flex-start;
 }
 
 .bottom-buttons{
-
 width:100%;
+}
+
+.whatsapp-float{
+
+right:14px;
+
+bottom:14px;
+
+padding:
+12px 15px;
+
+font-size:13px;
 
 }
 
@@ -2011,26 +1993,18 @@ width:100%;
 <body>
 
 
-<a
-class="skip-link"
-href="#main">
-
+<a class="skip-link" href="#main">
 Skip to content
-
 </a>
 
 
-<!-- =====================================================
-HEADER
-===================================================== -->
+<!-- HEADER -->
 
 <header class="site-header">
 
 <div class="container nav">
 
-<a
-class="brand"
-href="#top">
+<a class="brand" href="#top">
 
 <span class="brand-mark">
 EM
@@ -2087,9 +2061,7 @@ FAQ
 
 
 <div class="independent">
-
 Independent · Non-official
-
 </div>
 
 </div>
@@ -2097,13 +2069,10 @@ Independent · Non-official
 </header>
 
 
-<main
-id="main">
+<main id="main">
 
 
-<!-- =====================================================
-HERO
-===================================================== -->
+<!-- HERO -->
 
 <section
 class="hero"
@@ -2111,9 +2080,7 @@ id="top">
 
 <div class="container hero-grid">
 
-
 <div>
-
 
 <div class="hero-badge">
 
@@ -2127,9 +2094,7 @@ VERIFIED NETWORK INFORMATION · COMMERCIAL DISCOVERY
 Understand the network.
 
 <span>
-
 Discover what is developing around it.
-
 </span>
 
 </h1>
@@ -2165,6 +2130,18 @@ Find property near the network
 
 </a>
 
+
+<a
+class="btn btn-whatsapp"
+href="https://wa.me/201000001802?text=Hello%20EgyptMonorail.com%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+target="_blank"
+rel="noopener"
+data-track="hero_whatsapp">
+
+WhatsApp
+
+</a>
+
 </div>
 
 
@@ -2176,12 +2153,10 @@ Always recheck official sources before travel or commercial reliance.
 
 </p>
 
-
 </div>
 
 
 <aside class="hero-card">
-
 
 <img
 src="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg"
@@ -2193,20 +2168,13 @@ fetchpriority="high">
 
 <div class="hero-card-body">
 
-
 <span class="eyebrow">
-
 Independent reference
-
 </span>
 
-
 <h2>
-
 From transport information to commercial context.
-
 </h2>
-
 
 <p>
 
@@ -2215,27 +2183,22 @@ commercial analysis and linked to official sources wherever possible.
 
 </p>
 
-
 </div>
 
 </aside>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-STATUS
-===================================================== -->
+<!-- STATUS -->
 
 <section class="status-section">
 
 <div class="container">
 
 <div class="stats">
-
 
 <div class="stat">
 
@@ -2304,7 +2267,6 @@ from both termini · Sep 2026 NAT update
 
 </div>
 
-
 </div>
 
 </div>
@@ -2312,32 +2274,21 @@ from both termini · Sep 2026 NAT update
 </section>
 
 
-<!-- =====================================================
-INTENT
-===================================================== -->
+<!-- USER INTENT -->
 
 <section class="section">
 
 <div class="container">
 
-
 <div class="section-head narrow">
 
-
 <span class="kicker">
-
 Start with your intent
-
 </span>
 
-
 <h2>
-
-One network.
-Different reasons to search.
-
+One network. Different reasons to search.
 </h2>
-
 
 <p>
 
@@ -2347,32 +2298,23 @@ property demand and commercial advertising research.
 
 </p>
 
-
 </div>
 
 
 <div class="intent-grid">
-
 
 <a
 class="intent-card"
 href="#network"
 data-track="intent_network">
 
-
 <span class="intent-number">
-
 01
-
 </span>
 
-
 <h3>
-
 Understand the network
-
 </h3>
-
 
 <p>
 
@@ -2381,13 +2323,9 @@ current status and official-source references.
 
 </p>
 
-
 <span class="text-link">
-
 Explore the network →
-
 </span>
-
 
 </a>
 
@@ -2397,20 +2335,13 @@ class="intent-card featured"
 href="#properties"
 data-track="intent_property">
 
-
 <span class="intent-number">
-
 02
-
 </span>
 
-
 <h3>
-
 Discover property near stations
-
 </h3>
-
 
 <p>
 
@@ -2420,13 +2351,9 @@ budget and purchase timing.
 
 </p>
 
-
 <span class="text-link">
-
 Property discovery →
-
 </span>
-
 
 </a>
 
@@ -2436,20 +2363,13 @@ class="intent-card"
 href="#advertising"
 data-track="intent_advertising">
 
-
 <span class="intent-number">
-
 03
-
 </span>
 
-
 <h3>
-
 Research monorail advertising
-
 </h3>
-
 
 <p>
 
@@ -2459,16 +2379,11 @@ without implying official inventory ownership.
 
 </p>
 
-
 <span class="text-link">
-
 Advertising market guide →
-
 </span>
 
-
 </a>
-
 
 </div>
 
@@ -2477,9 +2392,7 @@ Advertising market guide →
 </section>
 
 
-<!-- =====================================================
-NETWORK
-===================================================== -->
+<!-- NETWORK -->
 
 <section
 class="section alt"
@@ -2487,24 +2400,15 @@ id="network">
 
 <div class="container">
 
-
 <div class="section-head">
 
-
 <span class="kicker">
-
 Network
-
 </span>
 
-
 <h2>
-
-Two lines.
-Two different operating stages.
-
+Two lines. Two different operating stages.
 </h2>
-
 
 <p>
 
@@ -2514,53 +2418,41 @@ with operation currently indicated for 2027.
 
 </p>
 
-
 </div>
 
 
 <div class="grid2">
 
-
 <article class="card">
-
 
 <div class="card-top">
 
 <span class="tag tag-live">
-
 LIVE
-
 </span>
 
 <span class="verified">
-
 Official-source data
-
 </span>
 
 </div>
 
 
 <h3>
-
 East Nile Monorail
-
 </h3>
-
 
 <p>
 
 The East Nile line connects Cairo Stadium in Nasr City
 with Justice City in the New Administrative Capital.
 
-Current official figures list
-56.5 km and 22 stations.
+Current official figures list 56.5 km and 22 stations.
 
 </p>
 
 
 <div class="source-row">
-
 
 <a
 class="source"
@@ -2572,7 +2464,6 @@ NAT project source ↗
 
 </a>
 
-
 <a
 class="source"
 href="https://www.nat.gov.eg/NewsDetails.aspx?id=1304"
@@ -2583,54 +2474,42 @@ Full-operation update ↗
 
 </a>
 
-
 </div>
-
 
 </article>
 
 
 <article class="card">
 
-
 <div class="card-top">
 
 <span class="tag">
-
 UNDER DEVELOPMENT
-
 </span>
 
 <span class="verified">
-
 2027 target
-
 </span>
 
 </div>
 
 
 <h3>
-
 West Nile Monorail
-
 </h3>
-
 
 <p>
 
 The West Nile line runs from New October
 toward Wadi El Nile in Mohandessin.
 
-Current official figures list
-43.8 km and 13 stations,
+Current official figures list 43.8 km and 13 stations,
 including Mall of Egypt and Sheikh Zayed City.
 
 </p>
 
 
 <div class="source-row">
-
 
 <a
 class="source"
@@ -2642,7 +2521,6 @@ NAT project source ↗
 
 </a>
 
-
 <a
 class="source"
 href="https://www.nat.gov.eg/NewsDetails.aspx?id=1295"
@@ -2653,12 +2531,9 @@ Project update ↗
 
 </a>
 
-
 </div>
 
-
 </article>
-
 
 </div>
 
@@ -2667,9 +2542,7 @@ Project update ↗
 </section>
 
 
-<!-- =====================================================
-STATIONS
-===================================================== -->
+<!-- STATIONS -->
 
 <section
 class="section"
@@ -2677,19 +2550,13 @@ id="stations">
 
 <div class="container">
 
-
 <div class="station-box">
-
 
 <div>
 
-
 <span class="kicker">
-
 Station intelligence
-
 </span>
-
 
 <h2>
 
@@ -2699,12 +2566,10 @@ The useful question is not only:
 
 </h2>
 
-
 </div>
 
 
 <div>
-
 
 <p>
 
@@ -2719,19 +2584,16 @@ and major destinations.
 
 </p>
 
-
 <p>
 
 The long-term objective is to build every station into
 a commercial reference based on verified geography,
-rather than vague claims such as
-“close to the monorail.”
+rather than vague claims such as “close to the monorail.”
 
 </p>
 
 
 <div class="catchment-grid">
-
 
 <div class="catchment">
 
@@ -2765,12 +2627,9 @@ Wider commercial and property influence area.
 
 </div>
 
-
 </div>
 
-
 </div>
-
 
 </div>
 
@@ -2779,65 +2638,43 @@ Wider commercial and property influence area.
 </section>
 
 
-<!-- =====================================================
-PRIORITY CORRIDORS
-===================================================== -->
+<!-- PRIORITY CORRIDORS -->
 
 <section class="section alt">
 
 <div class="container">
 
-
 <div class="section-head">
 
-
 <span class="kicker">
-
 Priority corridors
-
 </span>
 
-
 <h2>
-
 Where commercial discovery starts.
-
 </h2>
-
 
 <p>
 
 We prioritize corridors where monorail access overlaps with
-strong residential,
-office,
-retail
-or institutional activity.
+strong residential, office, retail or institutional activity.
 
 </p>
-
 
 </div>
 
 
 <div class="corridor-grid">
 
-
 <div class="corridor-card">
 
-
 <span>
-
 East Nile
-
 </span>
 
-
 <h3>
-
 New Cairo
-
 </h3>
-
 
 <p>
 
@@ -2849,26 +2686,18 @@ and major commercial destinations.
 
 </p>
 
-
 </div>
 
 
 <div class="corridor-card">
 
-
 <span>
-
 East Nile
-
 </span>
 
-
 <h3>
-
 New Administrative Capital
-
 </h3>
-
 
 <p>
 
@@ -2879,26 +2708,18 @@ and residential districts connected to the live East Nile corridor.
 
 </p>
 
-
 </div>
 
 
 <div class="corridor-card">
 
-
 <span>
-
 West Nile · 2027 target
-
 </span>
 
-
 <h3>
-
 October & Sheikh Zayed
-
 </h3>
-
 
 <p>
 
@@ -2907,9 +2728,7 @@ including Mall of Egypt and Sheikh Zayed City.
 
 </p>
 
-
 </div>
-
 
 </div>
 
@@ -2918,24 +2737,17 @@ including Mall of Egypt and Sheikh Zayed City.
 </section>
 
 
-<!-- =====================================================
-PROPERTY DATA STANDARD
-===================================================== -->
+<!-- PROPERTY DATA -->
 
 <section class="section">
 
 <div class="container">
 
-
 <div class="section-head narrow">
 
-
 <span class="kicker">
-
 Property data standard
-
 </span>
-
 
 <h2>
 
@@ -2944,7 +2756,6 @@ without useful evidence.
 
 </h2>
 
-
 <p>
 
 Property discovery becomes valuable when every record
@@ -2952,12 +2763,10 @@ uses comparable and recently verified information.
 
 </p>
 
-
 </div>
 
 
 <div class="data-pill-grid">
-
 
 <span class="data-pill">
 Nearest station
@@ -2991,18 +2800,14 @@ Delivery status
 Last verified
 </span>
 
-
 </div>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-PROPERTY LEAD GENERATION
-===================================================== -->
+<!-- PROPERTY FORM -->
 
 <section
 class="section alt"
@@ -3010,30 +2815,24 @@ id="properties">
 
 <div class="container form-wrap">
 
-
 <div class="form-info">
 
-
 <span class="kicker">
-
 Property demand
-
 </span>
 
-
 <h2>
-
 Looking for property near the monorail network?
-
 </h2>
-
 
 <p>
 
-The goal is not to build another generic property portal.
+Tell us what you are looking for,
+your preferred corridor,
+budget and timing.
 
-We want to understand qualified demand around
-actual monorail corridors and stations.
+The information is converted automatically
+into a structured WhatsApp message.
 
 </p>
 
@@ -3041,9 +2840,7 @@ actual monorail corridors and stations.
 <div class="notice">
 
 <strong>
-
 Independent discovery:
-
 </strong>
 
 EgyptMonorail.com is not a developer,
@@ -3053,11 +2850,9 @@ or transport authority.
 Property prices,
 availability,
 distances
-and developer information must be independently verified
-before a transaction.
+and developer information must be independently verified.
 
 </div>
-
 
 </div>
 
@@ -3069,7 +2864,6 @@ data-lead-type="property">
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3095,7 +2889,6 @@ required>
 
 </label>
 
-
 </div>
 
 
@@ -3112,7 +2905,6 @@ autocomplete="email">
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3179,12 +2971,10 @@ Other commercial
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3233,12 +3023,10 @@ placeholder="Example: Golden Square or Sheikh Zayed">
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3281,8 +3069,7 @@ EGP 40 million+
 
 Payment preference
 
-<select
-name="payment">
+<select name="payment">
 
 <option value="">
 Select
@@ -3304,12 +3091,10 @@ Open to both
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3357,7 +3142,6 @@ Researching only
 
 </label>
 
-
 </div>
 
 
@@ -3375,12 +3159,10 @@ placeholder="Preferred developer, delivery date, down payment, use case or other
 
 <label class="consent">
 
-
 <input
 type="checkbox"
 name="consent"
 required>
-
 
 <span>
 
@@ -3389,18 +3171,33 @@ and that property information requires direct verification.
 
 </span>
 
-
 </label>
 
 
-<button
-class="btn btn-gold"
-type="submit"
-data-track="property_submit">
+<div class="form-actions">
 
-Prepare property enquiry
+<button
+class="btn btn-whatsapp"
+type="submit"
+data-channel="whatsapp"
+data-track="property_whatsapp">
+
+Continue on WhatsApp
 
 </button>
+
+
+<button
+class="btn btn-email"
+type="submit"
+data-channel="email"
+data-track="property_email">
+
+Send by Email
+
+</button>
+
+</div>
 
 
 <p
@@ -3410,18 +3207,14 @@ aria-live="polite">
 
 </p>
 
-
 </form>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-ADVERTISING
-===================================================== -->
+<!-- ADVERTISING -->
 
 <section
 class="section"
@@ -3429,23 +3222,17 @@ id="advertising">
 
 <div class="container">
 
-
 <div class="section-head narrow">
 
-
 <span class="kicker">
-
 Advertising market intelligence
-
 </span>
-
 
 <h2>
 
 There is a real commercial advertising layer around the network.
 
 </h2>
-
 
 <p>
 
@@ -3457,29 +3244,20 @@ or rights.
 
 </p>
 
-
 </div>
 
 
 <div class="grid3">
 
-
 <article class="card">
 
-
 <span class="eyebrow">
-
 Onboard media
-
 </span>
 
-
 <h3>
-
 Digital advertising
-
 </h3>
-
 
 <p>
 
@@ -3488,7 +3266,6 @@ LED screens for paid advertising.
 
 </p>
 
-
 <a
 class="source"
 href="https://www.nat.gov.eg/NewsDetails.aspx?id=1294"
@@ -3499,26 +3276,18 @@ Official NAT reference ↗
 
 </a>
 
-
 </article>
 
 
 <article class="card">
 
-
 <span class="eyebrow">
-
 Station monetization
-
 </span>
 
-
 <h3>
-
 Commercial station rights
-
 </h3>
-
 
 <p>
 
@@ -3527,7 +3296,6 @@ connected with the naming of some stations.
 
 </p>
 
-
 <a
 class="source"
 href="https://www.nat.gov.eg/NewsDetails.aspx?id=1294"
@@ -3538,26 +3306,18 @@ Official NAT reference ↗
 
 </a>
 
-
 </article>
 
 
 <article class="card">
 
-
 <span class="eyebrow">
-
 Outdoor media
-
 </span>
 
-
 <h3>
-
 Pillars & station advertising
-
 </h3>
-
 
 <p>
 
@@ -3565,7 +3325,6 @@ NAT has publicly discussed commercial advertising
 on monorail pillars and stations.
 
 </p>
-
 
 <a
 class="source"
@@ -3577,52 +3336,40 @@ Official NAT reference ↗
 
 </a>
 
-
 </article>
 
-
 </div>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-ADVERTISING LEAD FORM
-===================================================== -->
+<!-- ADVERTISING FORM -->
 
 <section class="section alt">
 
 <div class="container form-wrap">
 
-
 <div class="form-info">
 
-
 <span class="kicker">
-
 Advertising demand
-
 </span>
 
-
 <h2>
-
 Planning a campaign around Egypt's monorail corridors?
-
 </h2>
-
 
 <p>
 
-We currently measure advertiser intent:
+Tell us the company,
 target corridor,
 campaign objective,
-format preference,
-budget
-and timing.
+budget and timing.
+
+Your information will be prepared automatically
+for WhatsApp or email.
 
 </p>
 
@@ -3630,21 +3377,17 @@ and timing.
 <div class="notice">
 
 <strong>
-
 Independent enquiry:
-
 </strong>
 
 EgyptMonorail.com does not currently own
 or claim official monorail advertising inventory.
 
-Submitting this form does not create a booking
+Submitting an enquiry does not create a booking
 and does not guarantee price,
-rights
-or availability.
+rights or availability.
 
 </div>
-
 
 </div>
 
@@ -3656,7 +3399,6 @@ data-lead-type="advertising">
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3681,12 +3423,10 @@ required>
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3711,12 +3451,10 @@ required>
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3780,7 +3518,6 @@ Other
 
 </label>
 
-
 </div>
 
 
@@ -3826,7 +3563,6 @@ Other
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3899,12 +3635,10 @@ Open to options
 
 </label>
 
-
 </div>
 
 
 <div class="field-row">
-
 
 <label>
 
@@ -3951,7 +3685,6 @@ name="start_date">
 
 </label>
 
-
 </div>
 
 
@@ -3969,12 +3702,10 @@ placeholder="Target audience, preferred areas, duration or other requirements.">
 
 <label class="consent">
 
-
 <input
 type="checkbox"
 name="consent"
 required>
-
 
 <span>
 
@@ -3983,18 +3714,33 @@ and not an official monorail advertising booking.
 
 </span>
 
-
 </label>
 
 
-<button
-class="btn btn-gold"
-type="submit"
-data-track="advertising_submit">
+<div class="form-actions">
 
-Prepare advertising enquiry
+<button
+class="btn btn-whatsapp"
+type="submit"
+data-channel="whatsapp"
+data-track="advertising_whatsapp">
+
+Continue on WhatsApp
 
 </button>
+
+
+<button
+class="btn btn-email"
+type="submit"
+data-channel="email"
+data-track="advertising_email">
+
+Send by Email
+
+</button>
+
+</div>
 
 
 <p
@@ -4004,18 +3750,14 @@ aria-live="polite">
 
 </p>
 
-
 </form>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-UPDATES
-===================================================== -->
+<!-- UPDATES -->
 
 <section
 class="section"
@@ -4023,23 +3765,15 @@ id="updates">
 
 <div class="container">
 
-
 <div class="section-head">
 
-
 <span class="kicker">
-
 Verified timeline
-
 </span>
 
-
 <h2>
-
 Important operational facts are dated.
-
 </h2>
-
 
 <p>
 
@@ -4047,34 +3781,25 @@ Transport schedules,
 operational details
 and project timelines can change.
 
-For that reason,
-meaningful updates are linked back to official sources.
+Meaningful updates are therefore linked
+back to official sources.
 
 </p>
-
 
 </div>
 
 
 <div class="grid3">
 
-
 <article class="card">
 
-
 <span class="timeline-date">
-
 SEP 2026
-
 </span>
 
-
 <h3>
-
 142 East Nile trips daily
-
 </h3>
-
 
 <p>
 
@@ -4083,7 +3808,6 @@ and a latest departure of 19:50
 from both termini.
 
 </p>
-
 
 <a
 class="source"
@@ -4095,26 +3819,18 @@ Official NAT update ↗
 
 </a>
 
-
 </article>
 
 
 <article class="card">
 
-
 <span class="timeline-date">
-
 JUN 2026
-
 </span>
 
-
 <h3>
-
 All 22 East Nile stations operating
-
 </h3>
-
 
 <p>
 
@@ -4123,7 +3839,6 @@ from Cairo Stadium to Justice City
 following the second-phase opening.
 
 </p>
-
 
 <a
 class="source"
@@ -4135,26 +3850,18 @@ Official NAT update ↗
 
 </a>
 
-
 </article>
 
 
 <article class="card">
 
-
 <span class="timeline-date">
-
 2027 TARGET
-
 </span>
 
-
 <h3>
-
 West Nile scheduled for operation
-
 </h3>
-
 
 <p>
 
@@ -4164,7 +3871,6 @@ for the 43.8 km,
 13-station line.
 
 </p>
-
 
 <a
 class="source"
@@ -4176,62 +3882,42 @@ Official project page ↗
 
 </a>
 
-
 </article>
 
-
 </div>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-TRUST
-===================================================== -->
+<!-- TRUST -->
 
 <section class="section alt">
 
 <div class="container">
 
-
 <div class="trust-box">
-
 
 <div>
 
-
 <span class="kicker">
-
 Trust & methodology
-
 </span>
 
-
 <h2>
-
-Facts first.
-
-Commercial analysis second.
-
+Facts first. Commercial analysis second.
 </h2>
-
 
 </div>
 
 
 <div class="trust-points">
 
-
 <div class="trust-point">
 
-
 <strong>
-
 Source-led
-
 </strong>
 
 <br>
@@ -4244,11 +3930,8 @@ to official or high-quality primary sources.
 
 <div class="trust-point">
 
-
 <strong>
-
 Dated
-
 </strong>
 
 <br>
@@ -4261,11 +3944,8 @@ because schedules and project status can change.
 
 <div class="trust-point">
 
-
 <strong>
-
 Independent
-
 </strong>
 
 <br>
@@ -4280,38 +3960,29 @@ or an official ticketing platform.
 
 <div class="trust-point">
 
-
 <strong>
-
 No invented inventory
-
 </strong>
 
 <br>
 
-Advertising prices,
+Advertising pricing,
 availability,
-rights
-and property availability
-are not stated as facts unless verified.
+rights and property availability
+are not presented as facts unless verified.
 
 </div>
 
-
 </div>
 
-
 </div>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-FAQ
-===================================================== -->
+<!-- FAQ -->
 
 <section
 class="section"
@@ -4319,62 +3990,43 @@ id="faq">
 
 <div class="container">
 
-
 <div class="section-head narrow">
 
-
 <span class="kicker">
-
 Frequently asked questions
-
 </span>
 
-
 <h2>
-
 About EgyptMonorail.com
-
 </h2>
-
 
 </div>
 
 
 <div class="faq">
 
-
 <div class="faq-item">
 
-
 <div class="faq-question">
-
 Is EgyptMonorail.com an official government website?
-
 </div>
-
 
 <p class="faq-answer">
 
 No.
 EgyptMonorail.com is an independent,
-non-official information
-and commercial-discovery platform.
+non-official information and commercial-discovery platform.
 
 </p>
-
 
 </div>
 
 
 <div class="faq-item">
 
-
 <div class="faq-question">
-
 Is the East Nile Monorail operational?
-
 </div>
-
 
 <p class="faq-answer">
 
@@ -4387,46 +4039,34 @@ against official sources before travel.
 
 </p>
 
-
 </div>
 
 
 <div class="faq-item">
 
-
 <div class="faq-question">
-
 Can I use EgyptMonorail.com to find property near stations?
-
 </div>
-
 
 <p class="faq-answer">
 
-The site is building a station-linked property discovery layer
-for areas including New Cairo,
+The site is developing a station-linked property discovery layer
+for New Cairo,
 the New Administrative Capital,
-October
-and Sheikh Zayed.
+October and Sheikh Zayed.
 
-Submitted enquiries are independent
-and property information must be verified before transaction.
+Property information must be verified before any transaction.
 
 </p>
-
 
 </div>
 
 
 <div class="faq-item">
 
-
 <div class="faq-question">
-
 Does EgyptMonorail.com sell official advertising inventory?
-
 </div>
-
 
 <p class="faq-answer">
 
@@ -4441,82 +4081,66 @@ of official monorail advertising inventory.
 
 </p>
 
-
 </div>
 
-
 </div>
-
 
 </div>
 
 </section>
 
 
-<!-- =====================================================
-BOTTOM CTA
-===================================================== -->
+<!-- BOTTOM CTA -->
 
 <section class="section alt">
 
 <div class="container">
 
-
 <div class="bottom-cta">
-
 
 <div>
 
-
 <h2>
-
-From information to measurable commercial demand.
-
+Have a property or advertising enquiry?
 </h2>
-
 
 <p>
 
-The objective is simple:
-build a useful independent reference,
-understand what people actually search for,
-and measure whether property
-or advertising demand can be generated around the network.
+Send us your requirements directly on WhatsApp,
+call us,
+or use the structured forms above.
 
 </p>
-
 
 </div>
 
 
 <div class="bottom-buttons">
 
-
 <a
-class="btn btn-gold"
-href="#properties"
-data-track="bottom_property">
+class="btn btn-whatsapp"
+href="https://wa.me/201000001802?text=Hello%20EgyptMonorail.com%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+target="_blank"
+rel="noopener"
+data-track="bottom_whatsapp">
 
-Property enquiry
+WhatsApp
 
 </a>
 
 
 <a
 class="btn btn-outline"
-href="#advertising"
-data-track="bottom_advertising">
+href="tel:+201000001802"
+data-track="bottom_call">
 
-Advertising enquiry
+Call 01000001802
 
 </a>
 
-
 </div>
 
-
 </div>
-
 
 </div>
 
@@ -4526,27 +4150,19 @@ Advertising enquiry
 </main>
 
 
-<!-- =====================================================
-FOOTER
-===================================================== -->
+<!-- FOOTER -->
 
 <footer class="site-footer">
 
 <div class="container">
 
-
 <div class="footer-grid">
-
 
 <div>
 
-
 <h3>
-
 EgyptMonorail.com
-
 </h3>
-
 
 <p>
 
@@ -4559,22 +4175,16 @@ and commercial activity.
 
 </p>
 
-
 </div>
 
 
 <div>
 
-
 <h3>
-
 Network
-
 </h3>
 
-
 <div class="footer-links">
-
 
 <a href="#network">
 East & West Nile
@@ -4588,25 +4198,18 @@ Stations
 Updates
 </a>
 
-
 </div>
-
 
 </div>
 
 
 <div>
 
-
 <h3>
-
-Commercial discovery
-
+Commercial
 </h3>
 
-
 <div class="footer-links">
-
 
 <a href="#properties">
 Properties
@@ -4616,27 +4219,48 @@ Properties
 Advertising
 </a>
 
-<a href="mailto:hussein.lashin@snapthename.com">
+</div>
+
+</div>
+
+
+<div>
+
+<h3>
 Contact
+</h3>
+
+<div class="footer-links">
+
+<a
+class="footer-whatsapp"
+href="https://wa.me/201000001802?text=Hello%20EgyptMonorail.com"
+target="_blank"
+rel="noopener">
+
+WhatsApp: 01000001802
+
 </a>
 
+<a href="tel:+201000001802">
+Call: 01000001802
+</a>
+
+<a href="mailto:hussein.lashin@snapthename.com">
+hussein.lashin@snapthename.com
+</a>
 
 </div>
 
-
 </div>
-
 
 </div>
 
 
 <div class="legal">
 
-
 <strong>
-
 Independent / non-official website.
-
 </strong>
 
 EgyptMonorail.com is not affiliated with
@@ -4651,33 +4275,50 @@ Operational information should be rechecked
 against official sources before travel
 or commercial reliance.
 
-Commercial sections are independent
-market-discovery content.
+Commercial sections are independent market-discovery content.
 
 EgyptMonorail.com does not currently claim ownership
 of official monorail advertising rights,
-ticketing rights,
+official ticketing rights,
 or exclusive property inventory.
 
-
 </div>
-
 
 </div>
 
 </footer>
 
 
-<!-- =====================================================
-JAVASCRIPT
-===================================================== -->
+<!-- FLOATING WHATSAPP -->
+
+<a
+href="https://wa.me/201000001802?text=Hello%20EgyptMonorail.com%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+target="_blank"
+rel="noopener"
+class="whatsapp-float"
+aria-label="Contact EgyptMonorail.com on WhatsApp"
+data-track="floating_whatsapp">
+
+<span class="whatsapp-icon">
+●
+</span>
+
+WhatsApp
+
+</a>
+
 
 <script>
 
-
 /* =====================================================
-CONFIGURATION
+CONTACT CONFIGURATION
 ===================================================== */
+
+const WHATSAPP_NUMBER =
+"201000001802";
+
+const DISPLAY_PHONE =
+"01000001802";
 
 const CONTACT_EMAIL =
 "hussein.lashin@snapthename.com";
@@ -4723,8 +4364,6 @@ String(open)
 }
 
 
-/* close mobile menu after clicking link */
-
 document
 .querySelectorAll(
 "#mainNav a"
@@ -4736,13 +4375,14 @@ link.addEventListener(
 "click",
 function(){
 
-if(mainNav){
-
 mainNav.classList.remove(
 "open"
 );
 
-}
+menuButton.setAttribute(
+"aria-expanded",
+"false"
+);
 
 }
 );
@@ -4841,9 +4481,42 @@ return character.toUpperCase();
 }
 
 
-function createEmailBody(data){
+function createLeadText(
+type,
+data
+){
 
-return Object.entries(data)
+let heading;
+
+if(
+type ===
+"advertising"
+){
+
+heading =
+"Advertising Enquiry";
+
+}else{
+
+heading =
+"Property Enquiry";
+
+}
+
+
+let text =
+
+"Hello EgyptMonorail.com" +
+"\n\n" +
+
+"I would like to submit a " +
+heading +
+"." +
+
+"\n\n";
+
+
+Object.entries(data)
 
 .filter(
 function(entry){
@@ -4862,29 +4535,38 @@ String(value).trim() !== ""
 }
 )
 
-.map(
+.forEach(
 function(entry){
 
-return (
+text +=
+
 readableLabel(
 entry[0]
 ) +
+
 ": " +
-entry[1]
-);
+
+entry[1] +
+
+"\n";
 
 }
-)
-
-.join(
-"\n"
 );
+
+
+text +=
+
+"\nSource: " +
+window.location.href;
+
+
+return text;
 
 }
 
 
 /* =====================================================
-LEAD FORMS
+FORM SUBMISSION
 ===================================================== */
 
 document
@@ -4912,12 +4594,29 @@ return;
 }
 
 
+const submitButton =
+event.submitter;
+
+
+const channel =
+submitButton
+? submitButton.dataset.channel
+: "whatsapp";
+
+
 const type =
 form.dataset.leadType;
 
 
 const data =
 formToObject(form);
+
+
+const message =
+createLeadText(
+type,
+data
+);
 
 
 /* Analytics */
@@ -4928,6 +4627,9 @@ track(
 
 lead_type:
 type,
+
+channel:
+channel,
 
 corridor:
 data.corridor || "",
@@ -4942,7 +4644,53 @@ window.location.pathname
 );
 
 
-/* Email subject */
+/* Status */
+
+const status =
+form.querySelector(
+".form-status"
+);
+
+
+/* WhatsApp */
+
+if(
+channel ===
+"whatsapp"
+){
+
+const whatsappURL =
+
+"https://wa.me/" +
+WHATSAPP_NUMBER +
+
+"?text=" +
+
+encodeURIComponent(
+message
+);
+
+
+if(status){
+
+status.textContent =
+"Opening WhatsApp with your enquiry ready to send.";
+
+}
+
+
+window.open(
+whatsappURL,
+"_blank",
+"noopener"
+);
+
+return;
+
+}
+
+
+/* Email */
 
 let subject;
 
@@ -4963,61 +4711,34 @@ subject =
 }
 
 
-/* Email body */
-
-const body =
-
-"Lead Type: " +
-type +
-
-"\n\nSource Page: " +
-window.location.href +
-
-"\n\n" +
-
-createEmailBody(
-data
-);
-
-
-/* Mail link */
-
-const mailto =
+const mailtoURL =
 
 "mailto:" +
 CONTACT_EMAIL +
 
 "?subject=" +
+
 encodeURIComponent(
 subject
 ) +
 
 "&body=" +
+
 encodeURIComponent(
-body
-);
-
-
-/* Status */
-
-const status =
-form.querySelector(
-".form-status"
+message
 );
 
 
 if(status){
 
 status.textContent =
-"Your enquiry has been prepared. Your email application will open so you can send it.";
+"Opening your email application with your enquiry ready to send.";
 
 }
 
-
-/* Open email client */
 
 window.location.href =
-mailto;
+mailtoURL;
 
 
 }
@@ -5025,7 +4746,6 @@ mailto;
 
 }
 );
-
 
 </script>
 

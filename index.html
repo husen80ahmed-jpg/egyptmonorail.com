@@ -4,7 +4,6 @@
 <head>
 
 <meta charset="utf-8">
-
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Egypt Monorail | Routes, Stations, Map, Property & Advertising Guide</title>
@@ -15,49 +14,26 @@ content="Independent Egypt Monorail guide covering East Nile and West Nile route
 <meta name="robots"
 content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
-<meta name="theme-color"
-content="#0B1F2A">
+<meta name="theme-color" content="#0B1F2A">
 
-<link rel="canonical"
-href="https://egyptmonorail.com/">
+<link rel="canonical" href="https://egyptmonorail.com/">
 
-<meta property="og:type"
-content="website">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Egypt Monorail | Routes, Stations, Map, Property & Advertising Guide">
+<meta property="og:description" content="Independent, source-led guide to Egypt's monorail network and the commercial activity developing around its stations and corridors.">
+<meta property="og:url" content="https://egyptmonorail.com/">
+<meta property="og:image" content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg">
+<meta property="og:site_name" content="EgyptMonorail.com">
 
-<meta property="og:title"
-content="Egypt Monorail | Routes, Stations, Map, Property & Advertising Guide">
-
-<meta property="og:description"
-content="Independent, source-led guide to Egypt's monorail network and the commercial activity developing around its stations and corridors.">
-
-<meta property="og:url"
-content="https://egyptmonorail.com/">
-
-<meta property="og:image"
-content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg">
-
-<meta property="og:site_name"
-content="EgyptMonorail.com">
-
-<meta name="twitter:card"
-content="summary_large_image">
-
-<meta name="twitter:title"
-content="Egypt Monorail | Routes, Stations, Map & Commercial Guide">
-
-<meta name="twitter:description"
-content="Independent guide to Egypt's East Nile and West Nile monorail network, stations, property and commercial context.">
-
-<meta name="twitter:image"
-content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Egypt Monorail | Routes, Stations, Map & Commercial Guide">
+<meta name="twitter:description" content="Independent guide to Egypt's East Nile and West Nile monorail network, stations, property and commercial context.">
+<meta name="twitter:image" content="https://i.ibb.co/kgCYSPwP/egyptmonorail-com.jpg">
 
 
-<!-- =====================================================
-FONTS
-===================================================== -->
+<!-- FONTS -->
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect"
 href="https://fonts.gstatic.com"
@@ -67,41 +43,18 @@ crossorigin>
 rel="stylesheet">
 
 
-<!-- =====================================================
-GOOGLE ANALYTICS
-===================================================== -->
-
-<script async
-src="https://www.googletagmanager.com/gtag/js?id=G-D7CS4LBW1K"></script>
-
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7CS4LBW1K"></script>
 <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-window.dataLayer =
-window.dataLayer || [];
-
-function gtag(){
-dataLayer.push(arguments);
-}
-
-gtag(
-'js',
-new Date()
-);
-
-gtag(
-'config',
-'G-D7CS4LBW1K',
-{
-anonymize_ip:true
-}
-);
-
+  gtag('config', 'G-D7CS4LBW1K');
 </script>
 
 
-<!-- =====================================================
-SCHEMA
-===================================================== -->
+<!-- WEBSITE SCHEMA -->
 
 <script type="application/ld+json">
 {
@@ -115,6 +68,8 @@ SCHEMA
 </script>
 
 
+<!-- ORGANIZATION / CONTACT SCHEMA -->
+
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -127,6 +82,8 @@ SCHEMA
 }
 </script>
 
+
+<!-- FAQ SCHEMA -->
 
 <script type="application/ld+json">
 {
@@ -173,41 +130,25 @@ SCHEMA
 <style>
 
 :root{
-
 --navy:#0B1F2A;
---navy-2:#103442;
---navy-3:#163F4B;
-
+--navy2:#103442;
+--navy3:#163F4B;
 --gold:#C7A75B;
---gold-light:#E6CE91;
---gold-soft:#F5ECD5;
-
+--goldLight:#E6CE91;
+--goldSoft:#F5ECD5;
 --white:#FFFFFF;
 --soft:#F5F7F8;
 --cream:#F8F4EA;
-
 --line:#DDE4E7;
-
 --ink:#172129;
 --muted:#66737C;
-
 --green:#28795B;
 --whatsapp:#25D366;
-
---shadow:
-0 20px 60px rgba(11,31,42,.10);
-
---shadow-dark:
-0 28px 80px rgba(0,0,0,.24);
-
+--shadow:0 20px 60px rgba(11,31,42,.10);
+--shadowDark:0 28px 80px rgba(0,0,0,.24);
 --radius:20px;
-
 --max:1180px;
-
 }
-
-
-/* RESET */
 
 *{
 box-sizing:border-box;
@@ -218,25 +159,11 @@ scroll-behavior:smooth;
 }
 
 body{
-
 margin:0;
-
-font-family:
-Inter,
-system-ui,
--apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-sans-serif;
-
-color:
-var(--ink);
-
-background:
-var(--white);
-
+font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+color:var(--ink);
+background:#fff;
 line-height:1.65;
-
 }
 
 img{
@@ -261,31 +188,17 @@ cursor:pointer;
 }
 
 .container{
-
-width:
-min(
-var(--max),
-calc(100% - 40px)
-);
-
-margin-inline:auto;
-
+width:min(var(--max),calc(100% - 40px));
+margin:auto;
 }
 
 .skip-link{
-
 position:absolute;
-
 left:-9999px;
-
 top:10px;
-
 background:#fff;
-
 padding:10px 14px;
-
 z-index:99999;
-
 }
 
 .skip-link:focus{
@@ -296,277 +209,143 @@ left:10px;
 /* HEADER */
 
 .site-header{
-
 position:sticky;
-
 top:0;
-
 z-index:1000;
-
-background:
-rgba(11,31,42,.97);
-
-backdrop-filter:
-blur(12px);
-
-border-bottom:
-1px solid rgba(255,255,255,.08);
-
+background:rgba(11,31,42,.97);
+backdrop-filter:blur(12px);
+border-bottom:1px solid rgba(255,255,255,.08);
 }
 
 .nav{
-
 min-height:76px;
-
 display:flex;
-
 align-items:center;
-
 gap:25px;
-
 }
 
 .brand{
-
 display:flex;
-
 align-items:center;
-
 gap:10px;
-
 color:#fff;
-
-font-family:
-Montserrat,
-sans-serif;
-
+font-family:Montserrat,sans-serif;
 font-weight:800;
-
 letter-spacing:-.02em;
-
 white-space:nowrap;
-
 }
 
 .brand-mark{
-
 width:36px;
 height:36px;
-
 border-radius:50%;
-
-background:
-var(--gold);
-
-color:
-var(--navy);
-
+background:var(--gold);
+color:var(--navy);
 display:grid;
-
 place-items:center;
-
 font-size:12px;
-
 font-weight:800;
-
 }
 
 .navlinks{
-
 display:flex;
-
 gap:18px;
-
 margin-left:auto;
-
 }
 
 .navlinks a{
-
 color:#DDE7EA;
-
 font-size:13px;
-
 font-weight:600;
-
 transition:.2s;
-
 }
 
 .navlinks a:hover{
-color:var(--gold-light);
+color:var(--goldLight);
 }
 
 .independent{
-
 font-size:11px;
-
 color:#BAC8CE;
-
-border:
-1px solid rgba(255,255,255,.15);
-
-padding:
-7px 10px;
-
+border:1px solid rgba(255,255,255,.15);
+padding:7px 10px;
 border-radius:999px;
-
 white-space:nowrap;
-
 }
 
 .menu-button{
-
 display:none;
-
 margin-left:auto;
-
 background:transparent;
-
-border:
-1px solid rgba(255,255,255,.25);
-
+border:1px solid rgba(255,255,255,.25);
 color:#fff;
-
-padding:
-8px 12px;
-
+padding:8px 12px;
 border-radius:10px;
-
 }
 
 
 /* HERO */
 
 .hero{
-
 background:
-
-radial-gradient(
-circle at 82% 12%,
-rgba(199,167,91,.20),
-transparent 30%
-),
-
-linear-gradient(
-135deg,
-#081B24,
-#103442 70%,
-#163F4B
-);
-
+radial-gradient(circle at 82% 12%,rgba(199,167,91,.20),transparent 30%),
+linear-gradient(135deg,#081B24,#103442 70%,#163F4B);
 color:#fff;
-
-padding:
-86px 0 80px;
-
+padding:86px 0 80px;
 }
 
 .hero-grid{
-
 display:grid;
-
-grid-template-columns:
-1.2fr .8fr;
-
+grid-template-columns:1.2fr .8fr;
 gap:55px;
-
 align-items:center;
-
 }
 
 .hero-badge{
-
 font-size:11px;
-
 font-weight:800;
-
 letter-spacing:.13em;
-
-color:
-var(--gold-light);
-
+color:var(--goldLight);
 margin-bottom:18px;
-
 }
 
 .hero h1{
-
-font-family:
-Montserrat,
-sans-serif;
-
-font-size:
-clamp(
-42px,
-6vw,
-72px
-);
-
+font-family:Montserrat,sans-serif;
+font-size:clamp(42px,6vw,72px);
 line-height:1.02;
-
 letter-spacing:-.045em;
-
-margin:
-0 0 22px;
-
+margin:0 0 22px;
 }
 
 .hero h1 span{
-
 display:block;
-
-color:
-var(--gold-light);
-
+color:var(--goldLight);
 }
 
 .hero-lead{
-
 font-size:19px;
-
 color:#D6E1E5;
-
 max-width:760px;
-
 margin:0;
-
 }
 
 .hero-actions{
-
 display:flex;
-
 gap:12px;
-
 flex-wrap:wrap;
-
 margin-top:31px;
-
 }
 
 .btn{
-
 display:inline-flex;
-
 align-items:center;
-
 justify-content:center;
-
 min-height:50px;
-
-padding:
-0 20px;
-
+padding:0 20px;
 border-radius:12px;
-
 font-weight:800;
-
-border:
-1px solid transparent;
-
+border:1px solid transparent;
 transition:.2s;
-
 }
 
 .btn:hover{
@@ -574,83 +353,45 @@ transform:translateY(-2px);
 }
 
 .btn-gold{
-
-background:
-var(--gold);
-
-color:
-var(--navy);
-
+background:var(--gold);
+color:var(--navy);
 }
 
 .btn-outline{
-
 background:transparent;
-
 color:#fff;
-
-border-color:
-rgba(255,255,255,.30);
-
+border-color:rgba(255,255,255,.30);
 }
 
 .btn-whatsapp{
-
-background:
-var(--whatsapp);
-
+background:var(--whatsapp);
 color:#fff;
-
 }
 
 .btn-email{
-
 background:#fff;
-
-color:
-var(--navy);
-
-border:
-1px solid var(--line);
-
+color:var(--navy);
+border:1px solid var(--line);
 }
 
 .microcopy{
-
 font-size:12px;
-
 color:#9EB0B7;
-
 margin-top:16px;
-
 }
 
 .hero-card{
-
 background:#fff;
-
-color:
-var(--ink);
-
-border-radius:
-var(--radius);
-
+color:var(--ink);
+border-radius:var(--radius);
 overflow:hidden;
-
-box-shadow:
-var(--shadow-dark);
-
+box-shadow:var(--shadowDark);
 }
 
 .hero-card img{
-
 width:100%;
-
-aspect-ratio:
-16 / 10;
-
+aspect-ratio:16/10;
 object-fit:cover;
-
 }
 
 .hero-card-body{
@@ -659,44 +400,24 @@ padding:25px;
 
 .eyebrow,
 .kicker{
-
 font-size:11px;
-
 text-transform:uppercase;
-
 letter-spacing:.12em;
-
 font-weight:800;
-
 color:#96752D;
-
 }
 
 .hero-card-body h2{
-
-font-family:
-Montserrat,
-sans-serif;
-
-color:
-var(--navy);
-
+font-family:Montserrat,sans-serif;
+color:var(--navy);
 font-size:22px;
-
 line-height:1.2;
-
-margin:
-7px 0 10px;
-
+margin:7px 0 10px;
 }
 
 .hero-card-body p{
-
 margin:0;
-
-color:
-var(--muted);
-
+color:var(--muted);
 }
 
 
@@ -708,36 +429,19 @@ z-index:10;
 }
 
 .stats{
-
 margin-top:-26px;
-
 background:#fff;
-
-border:
-1px solid var(--line);
-
+border:1px solid var(--line);
 border-radius:18px;
-
 display:grid;
-
-grid-template-columns:
-repeat(4,1fr);
-
-box-shadow:
-var(--shadow);
-
+grid-template-columns:repeat(4,1fr);
+box-shadow:var(--shadow);
 overflow:hidden;
-
 }
 
 .stat{
-
-padding:
-21px 23px;
-
-border-right:
-1px solid var(--line);
-
+padding:21px 23px;
+border-right:1px solid var(--line);
 }
 
 .stat:last-child{
@@ -745,69 +449,41 @@ border-right:0;
 }
 
 .stat small{
-
 display:block;
-
 font-weight:700;
-
-color:
-var(--muted);
-
+color:var(--muted);
 margin-bottom:4px;
-
 }
 
 .stat strong{
-
 display:block;
-
-font-family:
-Montserrat,
-sans-serif;
-
+font-family:Montserrat,sans-serif;
 font-size:23px;
-
-color:
-var(--navy);
-
+color:var(--navy);
 }
 
 .stat span{
-
 display:block;
-
 font-size:12px;
-
-color:
-var(--muted);
-
+color:var(--muted);
 margin-top:3px;
-
 }
 
 
 /* GENERAL */
 
 .section{
-
-padding:
-84px 0;
-
+padding:84px 0;
 scroll-margin-top:90px;
-
 }
 
 .section.alt{
-background:
-var(--soft);
+background:var(--soft);
 }
 
 .section-head{
-
 max-width:880px;
-
 margin-bottom:36px;
-
 }
 
 .section-head.narrow{
@@ -816,273 +492,139 @@ max-width:760px;
 
 .section-head h2,
 .form-info h2{
-
-font-family:
-Montserrat,
-sans-serif;
-
-font-size:
-clamp(
-30px,
-4vw,
-46px
-);
-
+font-family:Montserrat,sans-serif;
+font-size:clamp(30px,4vw,46px);
 line-height:1.08;
-
 letter-spacing:-.035em;
-
-color:
-var(--navy);
-
-margin:
-8px 0 14px;
-
+color:var(--navy);
+margin:8px 0 14px;
 }
 
 .section-head p,
 .form-info p{
-
 font-size:17px;
-
-color:
-var(--muted);
-
+color:var(--muted);
 margin:0;
-
 }
 
 
 /* INTENT */
 
 .intent-grid{
-
 display:grid;
-
-grid-template-columns:
-repeat(3,1fr);
-
+grid-template-columns:repeat(3,1fr);
 gap:22px;
-
 }
 
 .intent-card{
-
 background:#fff;
-
-border:
-1px solid var(--line);
-
-border-radius:
-var(--radius);
-
+border:1px solid var(--line);
+border-radius:var(--radius);
 padding:27px;
-
 transition:.22s;
-
 }
 
 .intent-card:hover{
-
-transform:
-translateY(-4px);
-
-box-shadow:
-var(--shadow);
-
+transform:translateY(-4px);
+box-shadow:var(--shadow);
 }
 
 .intent-card.featured{
-
-background:
-linear-gradient(
-180deg,
-#fff,
-#FCF8EF
-);
-
-border-color:
-#D9C48D;
-
+background:linear-gradient(180deg,#fff,#FCF8EF);
+border-color:#D9C48D;
 }
 
 .intent-number{
-
-font-family:
-Montserrat,
-sans-serif;
-
+font-family:Montserrat,sans-serif;
 font-weight:800;
-
-color:
-var(--gold);
-
+color:var(--gold);
 font-size:12px;
-
 }
 
 .intent-card h3{
-
-font-family:
-Montserrat,
-sans-serif;
-
-color:
-var(--navy);
-
+font-family:Montserrat,sans-serif;
+color:var(--navy);
 font-size:21px;
-
-margin:
-8px 0 10px;
-
+margin:8px 0 10px;
 }
 
 .intent-card p{
-
-color:
-var(--muted);
-
-margin:
-0 0 16px;
-
+color:var(--muted);
+margin:0 0 16px;
 }
 
 .text-link{
-
 font-weight:800;
-
 color:#86651C;
-
 }
 
 
 /* CARDS */
 
 .grid2{
-
 display:grid;
-
-grid-template-columns:
-repeat(2,1fr);
-
+grid-template-columns:repeat(2,1fr);
 gap:22px;
-
 }
 
 .grid3{
-
 display:grid;
-
-grid-template-columns:
-repeat(3,1fr);
-
+grid-template-columns:repeat(3,1fr);
 gap:22px;
-
 }
 
 .card{
-
 background:#fff;
-
-border:
-1px solid var(--line);
-
-border-radius:
-var(--radius);
-
+border:1px solid var(--line);
+border-radius:var(--radius);
 padding:27px;
-
-box-shadow:
-0 8px 28px rgba(11,31,42,.04);
-
+box-shadow:0 8px 28px rgba(11,31,42,.04);
 }
 
 .card h3{
-
-font-family:
-Montserrat,
-sans-serif;
-
-color:
-var(--navy);
-
+font-family:Montserrat,sans-serif;
+color:var(--navy);
 font-size:21px;
-
-margin:
-9px 0 11px;
-
+margin:9px 0 11px;
 }
 
 .card p{
-
-color:
-var(--muted);
-
-margin:
-0 0 15px;
-
+color:var(--muted);
+margin:0 0 15px;
 }
 
 .card-top{
-
 display:flex;
-
 align-items:center;
-
-justify-content:
-space-between;
-
+justify-content:space-between;
 gap:10px;
-
 }
 
 .tag{
-
 display:inline-flex;
-
 background:#EDF1F2;
-
 color:#3C4D55;
-
-padding:
-6px 9px;
-
+padding:6px 9px;
 border-radius:999px;
-
 font-size:10px;
-
 font-weight:800;
-
 letter-spacing:.06em;
-
 }
 
 .tag-live{
-
 background:#E6F3ED;
-
-color:
-var(--green);
-
+color:var(--green);
 }
 
 .verified{
-
 font-size:11px;
-
 font-weight:700;
-
-color:
-var(--muted);
-
+color:var(--muted);
 }
 
 .source{
-
 font-weight:800;
-
 color:#86651C;
-
 }
 
 .source:hover{
@@ -1090,327 +632,175 @@ text-decoration:underline;
 }
 
 .source-row{
-
 display:flex;
-
 gap:15px;
-
 flex-wrap:wrap;
-
 margin-top:16px;
-
 }
 
 
 /* STATION */
 
 .station-box{
-
 display:grid;
-
-grid-template-columns:
-.78fr 1.22fr;
-
+grid-template-columns:.78fr 1.22fr;
 gap:44px;
-
-background:
-var(--navy);
-
+background:var(--navy);
 color:#fff;
-
 padding:42px;
-
 border-radius:28px;
-
 }
 
 .station-box h2{
-
-font-family:
-Montserrat,
-sans-serif;
-
-font-size:
-clamp(
-30px,
-4vw,
-44px
-);
-
+font-family:Montserrat,sans-serif;
+font-size:clamp(30px,4vw,44px);
 line-height:1.08;
-
-margin:
-8px 0 0;
-
+margin:8px 0 0;
 letter-spacing:-.035em;
-
 }
 
 .station-box p{
-
 color:#D1DCE0;
-
-margin:
-0 0 15px;
-
+margin:0 0 15px;
 }
 
 .catchment-grid{
-
 display:grid;
-
-grid-template-columns:
-repeat(3,1fr);
-
+grid-template-columns:repeat(3,1fr);
 gap:15px;
-
 margin-top:25px;
-
 }
 
 .catchment{
-
-border:
-1px solid rgba(255,255,255,.10);
-
-background:
-rgba(255,255,255,.055);
-
+border:1px solid rgba(255,255,255,.10);
+background:rgba(255,255,255,.055);
 padding:18px;
-
 border-radius:14px;
-
 }
 
 .catchment strong{
-
 display:block;
-
-color:
-var(--gold-light);
-
+color:var(--goldLight);
 margin-bottom:6px;
-
 }
 
 
 /* CORRIDORS */
 
 .corridor-grid{
-
 display:grid;
-
-grid-template-columns:
-repeat(3,1fr);
-
+grid-template-columns:repeat(3,1fr);
 gap:20px;
-
 }
 
 .corridor-card{
-
-border:
-1px solid var(--line);
-
+border:1px solid var(--line);
 background:#fff;
-
-border-radius:
-var(--radius);
-
+border-radius:var(--radius);
 padding:26px;
-
 }
 
 .corridor-card span{
-
 font-size:11px;
-
 font-weight:800;
-
 letter-spacing:.10em;
-
 text-transform:uppercase;
-
 color:#96752D;
-
 }
 
 .corridor-card h3{
-
-font-family:
-Montserrat,
-sans-serif;
-
-color:
-var(--navy);
-
+font-family:Montserrat,sans-serif;
+color:var(--navy);
 font-size:22px;
-
-margin:
-8px 0 10px;
-
+margin:8px 0 10px;
 }
 
 .corridor-card p{
-
-color:
-var(--muted);
-
+color:var(--muted);
 margin:0;
-
 }
 
 
 /* DATA */
 
 .data-pill-grid{
-
 display:grid;
-
-grid-template-columns:
-repeat(4,1fr);
-
+grid-template-columns:repeat(4,1fr);
 gap:12px;
-
 margin-top:26px;
-
 }
 
 .data-pill{
-
 display:block;
-
 text-align:center;
-
-padding:
-14px 12px;
-
+padding:14px 12px;
 background:#fff;
-
-border:
-1px solid var(--line);
-
+border:1px solid var(--line);
 border-radius:12px;
-
 font-weight:700;
-
 color:#42515A;
-
 }
 
 
 /* FORMS */
 
 .form-wrap{
-
 display:grid;
-
-grid-template-columns:
-.72fr 1.28fr;
-
+grid-template-columns:.72fr 1.28fr;
 gap:54px;
-
 align-items:start;
-
 }
 
 .notice{
-
-background:
-var(--cream);
-
-border-left:
-4px solid var(--gold);
-
+background:var(--cream);
+border-left:4px solid var(--gold);
 padding:17px;
-
 border-radius:10px;
-
 margin-top:22px;
-
 font-size:13px;
-
 color:#554823;
-
 }
 
 .lead-form{
-
 background:#fff;
-
-border:
-1px solid var(--line);
-
-border-radius:
-var(--radius);
-
+border:1px solid var(--line);
+border-radius:var(--radius);
 padding:28px;
-
-box-shadow:
-var(--shadow);
-
+box-shadow:var(--shadow);
 }
 
 .field-row{
-
 display:grid;
-
-grid-template-columns:
-repeat(2,1fr);
-
+grid-template-columns:repeat(2,1fr);
 gap:16px;
-
 }
 
 label{
-
 display:block;
-
 font-size:13px;
-
 font-weight:700;
-
 color:#2C3940;
-
 margin-bottom:16px;
-
 }
 
 input,
 select,
 textarea{
-
 width:100%;
-
 margin-top:7px;
-
-border:
-1px solid #CBD5DA;
-
+border:1px solid #CBD5DA;
 border-radius:11px;
-
 background:#fff;
-
-padding:
-12px 13px;
-
-color:
-var(--ink);
-
+padding:12px 13px;
+color:var(--ink);
 outline:none;
-
 }
 
 input:focus,
 select:focus,
 textarea:focus{
-
-border-color:
-var(--gold);
-
-box-shadow:
-0 0 0 3px rgba(199,167,91,.17);
-
+border-color:var(--gold);
+box-shadow:0 0 0 3px rgba(199,167,91,.17);
 }
 
 textarea{
@@ -1418,75 +808,43 @@ resize:vertical;
 }
 
 .consent{
-
 display:flex;
-
 align-items:flex-start;
-
 gap:9px;
-
 font-weight:500;
-
-color:
-var(--muted);
-
+color:var(--muted);
 }
 
 .consent input{
-
 width:auto;
-
 margin-top:4px;
-
 }
 
 .form-actions{
-
 display:grid;
-
-grid-template-columns:
-1fr 1fr;
-
+grid-template-columns:1fr 1fr;
 gap:10px;
-
 margin-top:8px;
-
 }
 
 .form-status{
-
 font-size:13px;
-
-color:
-var(--green);
-
+color:var(--green);
 font-weight:600;
-
 margin-bottom:0;
-
 }
 
 
 /* UPDATE */
 
 .timeline-date{
-
 display:inline-block;
-
 font-size:11px;
-
 font-weight:800;
-
 color:#8B6A22;
-
-background:
-var(--gold-soft);
-
-padding:
-6px 9px;
-
+background:var(--goldSoft);
+padding:6px 9px;
 border-radius:999px;
-
 }
 
 
@@ -1497,113 +855,57 @@ max-width:900px;
 }
 
 .faq-item{
-
-border-bottom:
-1px solid var(--line);
-
-padding:
-19px 0;
-
+border-bottom:1px solid var(--line);
+padding:19px 0;
 }
 
 .faq-question{
-
-font-family:
-Montserrat,
-sans-serif;
-
+font-family:Montserrat,sans-serif;
 font-weight:700;
-
-color:
-var(--navy);
-
+color:var(--navy);
 font-size:18px;
-
 margin-bottom:8px;
-
 }
 
 .faq-answer{
-
-color:
-var(--muted);
-
+color:var(--muted);
 margin:0;
-
 }
 
 
 /* TRUST */
 
 .trust-box{
-
-background:
-var(--navy);
-
+background:var(--navy);
 color:#fff;
-
 border-radius:28px;
-
 padding:42px;
-
 display:grid;
-
-grid-template-columns:
-.7fr 1.3fr;
-
+grid-template-columns:.7fr 1.3fr;
 gap:45px;
-
 }
 
 .trust-box h2{
-
-font-family:
-Montserrat,
-sans-serif;
-
-font-size:
-clamp(
-30px,
-4vw,
-44px
-);
-
+font-family:Montserrat,sans-serif;
+font-size:clamp(30px,4vw,44px);
 line-height:1.08;
-
 letter-spacing:-.035em;
-
-margin:
-8px 0;
-
+margin:8px 0;
 }
 
 .trust-points{
-
 display:grid;
-
-grid-template-columns:
-repeat(2,1fr);
-
+grid-template-columns:repeat(2,1fr);
 gap:16px;
-
 }
 
 .trust-point{
-
-border:
-1px solid rgba(255,255,255,.10);
-
-background:
-rgba(255,255,255,.055);
-
+border:1px solid rgba(255,255,255,.10);
+background:rgba(255,255,255,.055);
 padding:18px;
-
 border-radius:14px;
-
 color:#D7E1E5;
-
 font-size:14px;
-
 }
 
 .trust-point strong{
@@ -1611,165 +913,82 @@ color:#fff;
 }
 
 
-/* BOTTOM CTA */
+/* CTA */
 
 .bottom-cta{
-
-background:
-linear-gradient(
-135deg,
-#102F3F,
-#0B1F2A
-);
-
+background:linear-gradient(135deg,#102F3F,#0B1F2A);
 color:#fff;
-
 border-radius:28px;
-
 padding:42px;
-
 display:flex;
-
 align-items:center;
-
-justify-content:
-space-between;
-
+justify-content:space-between;
 gap:30px;
-
 }
 
 .bottom-cta h2{
-
-font-family:
-Montserrat,
-sans-serif;
-
-font-size:
-clamp(
-28px,
-4vw,
-42px
-);
-
+font-family:Montserrat,sans-serif;
+font-size:clamp(28px,4vw,42px);
 line-height:1.1;
-
-margin:
-0 0 12px;
-
+margin:0 0 12px;
 }
 
 .bottom-cta p{
-
 color:#CDD8DC;
-
 margin:0;
-
 max-width:720px;
-
 }
 
 .bottom-buttons{
-
 display:flex;
-
 flex-direction:column;
-
 gap:10px;
-
 min-width:220px;
-
 }
 
 
-/* FLOATING WHATSAPP */
+/* FLOAT WHATSAPP */
 
 .whatsapp-float{
-
 position:fixed;
-
 right:20px;
-
 bottom:20px;
-
 z-index:3000;
-
 display:flex;
-
 align-items:center;
-
 gap:9px;
-
-background:
-var(--whatsapp);
-
+background:var(--whatsapp);
 color:#fff;
-
 font-weight:800;
-
-padding:
-13px 18px;
-
+padding:13px 18px;
 border-radius:999px;
-
-box-shadow:
-0 12px 35px rgba(0,0,0,.22);
-
+box-shadow:0 12px 35px rgba(0,0,0,.22);
 transition:.2s;
-
 }
 
 .whatsapp-float:hover{
-
-transform:
-translateY(-3px);
-
-box-shadow:
-0 16px 40px rgba(0,0,0,.27);
-
-}
-
-.whatsapp-icon{
-
-font-size:18px;
-
+transform:translateY(-3px);
 }
 
 
 /* FOOTER */
 
 .site-footer{
-
 background:#071820;
-
 color:#D7E1E5;
-
-padding:
-54px 0 90px;
-
+padding:54px 0 90px;
 }
 
 .footer-grid{
-
 display:grid;
-
-grid-template-columns:
-1.3fr 1fr 1fr 1fr;
-
+grid-template-columns:1.3fr 1fr 1fr 1fr;
 gap:35px;
-
 }
 
 .footer-grid h3{
-
-font-family:
-Montserrat,
-sans-serif;
-
+font-family:Montserrat,sans-serif;
 color:#fff;
-
 margin-top:0;
-
 }
 
 .footer-grid p{
@@ -1777,13 +996,9 @@ color:#9EB0B7;
 }
 
 .footer-links{
-
 display:flex;
-
 flex-direction:column;
-
 gap:9px;
-
 }
 
 .footer-links a{
@@ -1791,7 +1006,7 @@ color:#BAC8CE;
 }
 
 .footer-links a:hover{
-color:var(--gold-light);
+color:var(--goldLight);
 }
 
 .footer-whatsapp{
@@ -1800,20 +1015,12 @@ font-weight:700;
 }
 
 .legal{
-
-border-top:
-1px solid rgba(255,255,255,.12);
-
+border-top:1px solid rgba(255,255,255,.12);
 margin-top:35px;
-
 padding-top:22px;
-
 font-size:11px;
-
 line-height:1.75;
-
 color:#8EA0A8;
-
 }
 
 
@@ -1830,28 +1037,16 @@ display:block;
 }
 
 .navlinks{
-
 position:absolute;
-
 top:68px;
-
 left:20px;
 right:20px;
-
 display:none;
-
 flex-direction:column;
-
-background:
-var(--navy);
-
+background:var(--navy);
 padding:18px;
-
-border:
-1px solid rgba(255,255,255,.14);
-
+border:1px solid rgba(255,255,255,.14);
 border-radius:14px;
-
 }
 
 .navlinks.open{
@@ -1862,9 +1057,7 @@ display:flex;
 .form-wrap,
 .station-box,
 .trust-box{
-
 grid-template-columns:1fr;
-
 }
 
 .stats{
@@ -1878,10 +1071,7 @@ border-right:0;
 .intent-grid,
 .grid3,
 .corridor-grid{
-
-grid-template-columns:
-repeat(2,1fr);
-
+grid-template-columns:repeat(2,1fr);
 }
 
 .data-pill-grid{
@@ -1930,18 +1120,12 @@ padding:62px 0;
 .footer-grid,
 .data-pill-grid,
 .form-actions{
-
 grid-template-columns:1fr;
-
 }
 
 .stat{
-
 border-right:0;
-
-border-bottom:
-1px solid var(--line);
-
+border-bottom:1px solid var(--line);
 }
 
 .stat:last-child{
@@ -1959,11 +1143,8 @@ padding:28px;
 }
 
 .bottom-cta{
-
 flex-direction:column;
-
 align-items:flex-start;
-
 }
 
 .bottom-buttons{
@@ -1971,16 +1152,10 @@ width:100%;
 }
 
 .whatsapp-float{
-
 right:14px;
-
 bottom:14px;
-
-padding:
-12px 15px;
-
+padding:12px 15px;
 font-size:13px;
-
 }
 
 }
@@ -1997,8 +1172,6 @@ font-size:13px;
 Skip to content
 </a>
 
-
-<!-- HEADER -->
 
 <header class="site-header">
 
@@ -2033,29 +1206,12 @@ class="navlinks"
 id="mainNav"
 aria-label="Primary navigation">
 
-<a href="#network">
-Network
-</a>
-
-<a href="#stations">
-Stations
-</a>
-
-<a href="#properties">
-Properties
-</a>
-
-<a href="#advertising">
-Advertising
-</a>
-
-<a href="#updates">
-Updates
-</a>
-
-<a href="#faq">
-FAQ
-</a>
+<a href="#network">Network</a>
+<a href="#stations">Stations</a>
+<a href="#properties">Properties</a>
+<a href="#advertising">Advertising</a>
+<a href="#updates">Updates</a>
+<a href="#faq">FAQ</a>
 
 </nav>
 
@@ -2074,31 +1230,20 @@ Independent · Non-official
 
 <!-- HERO -->
 
-<section
-class="hero"
-id="top">
+<section class="hero" id="top">
 
 <div class="container hero-grid">
 
 <div>
 
 <div class="hero-badge">
-
 VERIFIED NETWORK INFORMATION · COMMERCIAL DISCOVERY
-
 </div>
 
-
 <h1>
-
 Understand the network.
-
-<span>
-Discover what is developing around it.
-</span>
-
+<span>Discover what is developing around it.</span>
 </h1>
-
 
 <p class="hero-lead">
 
@@ -2107,7 +1252,6 @@ plus property and commercial discovery around Egypt's
 East Nile and West Nile monorail corridors.
 
 </p>
-
 
 <div class="hero-actions">
 
@@ -2144,7 +1288,6 @@ WhatsApp
 
 </div>
 
-
 <p class="microcopy">
 
 Last reviewed: 14 October 2026.
@@ -2164,7 +1307,6 @@ alt="Egypt Monorail train travelling on an elevated monorail guideway"
 width="1200"
 height="750"
 fetchpriority="high">
-
 
 <div class="hero-card-body">
 
@@ -2201,70 +1343,27 @@ commercial analysis and linked to official sources wherever possible.
 <div class="stats">
 
 <div class="stat">
-
-<small>
-East Nile
-</small>
-
-<strong>
-56.5 km
-</strong>
-
-<span>
-22 stations · fully operational
-</span>
-
+<small>East Nile</small>
+<strong>56.5 km</strong>
+<span>22 stations · fully operational</span>
 </div>
 
-
 <div class="stat">
-
-<small>
-West Nile
-</small>
-
-<strong>
-43.8 km
-</strong>
-
-<span>
-13 stations · scheduled for 2027
-</span>
-
+<small>West Nile</small>
+<strong>43.8 km</strong>
+<span>13 stations · scheduled for 2027</span>
 </div>
 
-
 <div class="stat">
-
-<small>
-East Nile service
-</small>
-
-<strong>
-142 trips/day
-</strong>
-
-<span>
-NAT service update · Sep 2026
-</span>
-
+<small>East Nile service</small>
+<strong>142 trips/day</strong>
+<span>NAT service update · Sep 2026</span>
 </div>
 
-
 <div class="stat">
-
-<small>
-Latest departure
-</small>
-
-<strong>
-19:50
-</strong>
-
-<span>
-from both termini · Sep 2026 NAT update
-</span>
-
+<small>Latest departure</small>
+<strong>19:50</strong>
+<span>from both termini · Sep 2026 NAT update</span>
 </div>
 
 </div>
@@ -2303,24 +1402,15 @@ property demand and commercial advertising research.
 
 <div class="intent-grid">
 
-<a
-class="intent-card"
-href="#network"
-data-track="intent_network">
+<a class="intent-card" href="#network" data-track="intent_network">
 
-<span class="intent-number">
-01
-</span>
+<span class="intent-number">01</span>
 
-<h3>
-Understand the network
-</h3>
+<h3>Understand the network</h3>
 
 <p>
-
 Explore East Nile and West Nile routes,
 current status and official-source references.
-
 </p>
 
 <span class="text-link">
@@ -2330,25 +1420,16 @@ Explore the network →
 </a>
 
 
-<a
-class="intent-card featured"
-href="#properties"
-data-track="intent_property">
+<a class="intent-card featured" href="#properties" data-track="intent_property">
 
-<span class="intent-number">
-02
-</span>
+<span class="intent-number">02</span>
 
-<h3>
-Discover property near stations
-</h3>
+<h3>Discover property near stations</h3>
 
 <p>
-
 Register demand by corridor,
 property type,
 budget and purchase timing.
-
 </p>
 
 <span class="text-link">
@@ -2358,25 +1439,16 @@ Property discovery →
 </a>
 
 
-<a
-class="intent-card"
-href="#advertising"
-data-track="intent_advertising">
+<a class="intent-card" href="#advertising" data-track="intent_advertising">
 
-<span class="intent-number">
-03
-</span>
+<span class="intent-number">03</span>
 
-<h3>
-Research monorail advertising
-</h3>
+<h3>Research monorail advertising</h3>
 
 <p>
-
 Explore documented commercial activity
 and register campaign interest
 without implying official inventory ownership.
-
 </p>
 
 <span class="text-link">
@@ -2394,17 +1466,13 @@ Advertising market guide →
 
 <!-- NETWORK -->
 
-<section
-class="section alt"
-id="network">
+<section class="section alt" id="network">
 
 <div class="container">
 
 <div class="section-head">
 
-<span class="kicker">
-Network
-</span>
+<span class="kicker">Network</span>
 
 <h2>
 Two lines. Two different operating stages.
@@ -2427,16 +1495,13 @@ with operation currently indicated for 2027.
 
 <div class="card-top">
 
-<span class="tag tag-live">
-LIVE
-</span>
+<span class="tag tag-live">LIVE</span>
 
 <span class="verified">
 Official-source data
 </span>
 
 </div>
-
 
 <h3>
 East Nile Monorail
@@ -2450,7 +1515,6 @@ with Justice City in the New Administrative Capital.
 Current official figures list 56.5 km and 22 stations.
 
 </p>
-
 
 <div class="source-row">
 
@@ -2493,7 +1557,6 @@ UNDER DEVELOPMENT
 
 </div>
 
-
 <h3>
 West Nile Monorail
 </h3>
@@ -2507,7 +1570,6 @@ Current official figures list 43.8 km and 13 stations,
 including Mall of Egypt and Sheikh Zayed City.
 
 </p>
-
 
 <div class="source-row">
 
@@ -2544,9 +1606,7 @@ Project update ↗
 
 <!-- STATIONS -->
 
-<section
-class="section"
-id="stations">
+<section class="section" id="stations">
 
 <div class="container">
 
@@ -2559,11 +1619,8 @@ Station intelligence
 </span>
 
 <h2>
-
 The useful question is not only:
-
 “Where is the station?”
-
 </h2>
 
 </div>
@@ -2592,39 +1649,21 @@ rather than vague claims such as “close to the monorail.”
 
 </p>
 
-
 <div class="catchment-grid">
 
 <div class="catchment">
-
-<strong>
-500 m
-</strong>
-
+<strong>500 m</strong>
 Immediate walking catchment and major nearby destinations.
-
 </div>
 
-
 <div class="catchment">
-
-<strong>
-1 km
-</strong>
-
+<strong>1 km</strong>
 Residential, office and retail context around the station.
-
 </div>
 
-
 <div class="catchment">
-
-<strong>
-2 km
-</strong>
-
+<strong>2 km</strong>
 Wider commercial and property influence area.
-
 </div>
 
 </div>
@@ -2668,13 +1707,9 @@ strong residential, office, retail or institutional activity.
 
 <div class="corridor-card">
 
-<span>
-East Nile
-</span>
+<span>East Nile</span>
 
-<h3>
-New Cairo
-</h3>
+<h3>New Cairo</h3>
 
 <p>
 
@@ -2691,13 +1726,9 @@ and major commercial destinations.
 
 <div class="corridor-card">
 
-<span>
-East Nile
-</span>
+<span>East Nile</span>
 
-<h3>
-New Administrative Capital
-</h3>
+<h3>New Administrative Capital</h3>
 
 <p>
 
@@ -2768,37 +1799,14 @@ uses comparable and recently verified information.
 
 <div class="data-pill-grid">
 
-<span class="data-pill">
-Nearest station
-</span>
-
-<span class="data-pill">
-Measured distance
-</span>
-
-<span class="data-pill">
-Developer
-</span>
-
-<span class="data-pill">
-Property type
-</span>
-
-<span class="data-pill">
-Price range
-</span>
-
-<span class="data-pill">
-Payment plan
-</span>
-
-<span class="data-pill">
-Delivery status
-</span>
-
-<span class="data-pill">
-Last verified
-</span>
+<span class="data-pill">Nearest station</span>
+<span class="data-pill">Measured distance</span>
+<span class="data-pill">Developer</span>
+<span class="data-pill">Property type</span>
+<span class="data-pill">Price range</span>
+<span class="data-pill">Payment plan</span>
+<span class="data-pill">Delivery status</span>
+<span class="data-pill">Last verified</span>
 
 </div>
 
@@ -2809,9 +1817,7 @@ Last verified
 
 <!-- PROPERTY FORM -->
 
-<section
-class="section alt"
-id="properties">
+<section class="section alt" id="properties">
 
 <div class="container form-wrap">
 
@@ -2835,7 +1841,6 @@ The information is converted automatically
 into a structured WhatsApp message.
 
 </p>
-
 
 <div class="notice">
 
@@ -2914,21 +1919,10 @@ What are you looking to do?
 name="intent"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-Buy
-</option>
-
-<option>
-Rent
-</option>
-
-<option>
-Invest
-</option>
+<option value="">Select</option>
+<option>Buy</option>
+<option>Rent</option>
+<option>Invest</option>
 
 </select>
 
@@ -2943,29 +1937,12 @@ Property type
 name="property_type"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-Residential
-</option>
-
-<option>
-Office
-</option>
-
-<option>
-Retail
-</option>
-
-<option>
-Medical
-</option>
-
-<option>
-Other commercial
-</option>
+<option value="">Select</option>
+<option>Residential</option>
+<option>Office</option>
+<option>Retail</option>
+<option>Medical</option>
+<option>Other commercial</option>
 
 </select>
 
@@ -2984,29 +1961,12 @@ Preferred corridor
 name="corridor"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-New Cairo / East Nile
-</option>
-
-<option>
-New Administrative Capital / East Nile
-</option>
-
-<option>
-October / West Nile
-</option>
-
-<option>
-Sheikh Zayed / West Nile
-</option>
-
-<option>
-Open to options
-</option>
+<option value="">Select</option>
+<option>New Cairo / East Nile</option>
+<option>New Administrative Capital / East Nile</option>
+<option>October / West Nile</option>
+<option>Sheikh Zayed / West Nile</option>
+<option>Open to options</option>
 
 </select>
 
@@ -3036,29 +1996,12 @@ Budget
 name="budget"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-Under EGP 5 million
-</option>
-
-<option>
-EGP 5–10 million
-</option>
-
-<option>
-EGP 10–20 million
-</option>
-
-<option>
-EGP 20–40 million
-</option>
-
-<option>
-EGP 40 million+
-</option>
+<option value="">Select</option>
+<option>Under EGP 5 million</option>
+<option>EGP 5–10 million</option>
+<option>EGP 10–20 million</option>
+<option>EGP 20–40 million</option>
+<option>EGP 40 million+</option>
 
 </select>
 
@@ -3071,21 +2014,10 @@ Payment preference
 
 <select name="payment">
 
-<option value="">
-Select
-</option>
-
-<option>
-Cash
-</option>
-
-<option>
-Installments
-</option>
-
-<option>
-Open to both
-</option>
+<option value="">Select</option>
+<option>Cash</option>
+<option>Installments</option>
+<option>Open to both</option>
 
 </select>
 
@@ -3114,29 +2046,12 @@ Decision timeline
 <select
 name="timeline">
 
-<option value="">
-Select
-</option>
-
-<option>
-Within 30 days
-</option>
-
-<option>
-1–3 months
-</option>
-
-<option>
-3–6 months
-</option>
-
-<option>
-6+ months
-</option>
-
-<option>
-Researching only
-</option>
+<option value="">Select</option>
+<option>Within 30 days</option>
+<option>1–3 months</option>
+<option>3–6 months</option>
+<option>6+ months</option>
+<option>Researching only</option>
 
 </select>
 
@@ -3204,7 +2119,6 @@ Send by Email
 class="form-status"
 role="status"
 aria-live="polite">
-
 </p>
 
 </form>
@@ -3216,9 +2130,7 @@ aria-live="polite">
 
 <!-- ADVERTISING -->
 
-<section
-class="section"
-id="advertising">
+<section class="section" id="advertising">
 
 <div class="container">
 
@@ -3373,7 +2285,6 @@ for WhatsApp or email.
 
 </p>
 
-
 <div class="notice">
 
 <strong>
@@ -3474,45 +2385,16 @@ Industry
 
 <select name="industry">
 
-<option value="">
-Select
-</option>
-
-<option>
-Real estate
-</option>
-
-<option>
-Automotive
-</option>
-
-<option>
-Banking & finance
-</option>
-
-<option>
-Telecom & technology
-</option>
-
-<option>
-FMCG
-</option>
-
-<option>
-Retail
-</option>
-
-<option>
-Healthcare
-</option>
-
-<option>
-Education
-</option>
-
-<option>
-Other
-</option>
+<option value="">Select</option>
+<option>Real estate</option>
+<option>Automotive</option>
+<option>Banking & finance</option>
+<option>Telecom & technology</option>
+<option>FMCG</option>
+<option>Retail</option>
+<option>Healthcare</option>
+<option>Education</option>
+<option>Other</option>
 
 </select>
 
@@ -3529,33 +2411,13 @@ Campaign objective
 name="objective"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-Brand awareness
-</option>
-
-<option>
-Product / project launch
-</option>
-
-<option>
-Local area reach
-</option>
-
-<option>
-Lead generation
-</option>
-
-<option>
-Seasonal campaign
-</option>
-
-<option>
-Other
-</option>
+<option value="">Select</option>
+<option>Brand awareness</option>
+<option>Product / project launch</option>
+<option>Local area reach</option>
+<option>Lead generation</option>
+<option>Seasonal campaign</option>
+<option>Other</option>
 
 </select>
 
@@ -3572,29 +2434,12 @@ Preferred corridor
 name="corridor"
 required>
 
-<option value="">
-Select
-</option>
-
-<option>
-New Cairo / East Nile
-</option>
-
-<option>
-New Administrative Capital / East Nile
-</option>
-
-<option>
-October / West Nile
-</option>
-
-<option>
-Sheikh Zayed / West Nile
-</option>
-
-<option>
-Not sure yet
-</option>
+<option value="">Select</option>
+<option>New Cairo / East Nile</option>
+<option>New Administrative Capital / East Nile</option>
+<option>October / West Nile</option>
+<option>Sheikh Zayed / West Nile</option>
+<option>Not sure yet</option>
 
 </select>
 
@@ -3607,29 +2452,12 @@ Format interest
 
 <select name="format">
 
-<option value="">
-Select
-</option>
-
-<option>
-Pillars / outdoor
-</option>
-
-<option>
-Station media
-</option>
-
-<option>
-Digital / onboard
-</option>
-
-<option>
-Naming / sponsorship
-</option>
-
-<option>
-Open to options
-</option>
+<option value="">Select</option>
+<option>Pillars / outdoor</option>
+<option>Station media</option>
+<option>Digital / onboard</option>
+<option>Naming / sponsorship</option>
+<option>Open to options</option>
 
 </select>
 
@@ -3646,29 +2474,12 @@ Estimated budget
 
 <select name="budget">
 
-<option value="">
-Prefer not to say
-</option>
-
-<option>
-Under EGP 100k
-</option>
-
-<option>
-EGP 100k–250k
-</option>
-
-<option>
-EGP 250k–500k
-</option>
-
-<option>
-EGP 500k–1m
-</option>
-
-<option>
-EGP 1m+
-</option>
+<option value="">Prefer not to say</option>
+<option>Under EGP 100k</option>
+<option>EGP 100k–250k</option>
+<option>EGP 250k–500k</option>
+<option>EGP 500k–1m</option>
+<option>EGP 1m+</option>
 
 </select>
 
@@ -3747,7 +2558,6 @@ Send by Email
 class="form-status"
 role="status"
 aria-live="polite">
-
 </p>
 
 </form>
@@ -3759,9 +2569,7 @@ aria-live="polite">
 
 <!-- UPDATES -->
 
-<section
-class="section"
-id="updates">
+<section class="section" id="updates">
 
 <div class="container">
 
@@ -3984,9 +2792,7 @@ are not presented as facts unless verified.
 
 <!-- FAQ -->
 
-<section
-class="section"
-id="faq">
+<section class="section" id="faq">
 
 <div class="container">
 
@@ -4299,10 +3105,6 @@ class="whatsapp-float"
 aria-label="Contact EgyptMonorail.com on WhatsApp"
 data-track="floating_whatsapp">
 
-<span class="whatsapp-icon">
-●
-</span>
-
 WhatsApp
 
 </a>
@@ -4310,48 +3112,29 @@ WhatsApp
 
 <script>
 
-/* =====================================================
-CONTACT CONFIGURATION
-===================================================== */
+/* CONTACT */
 
-const WHATSAPP_NUMBER =
-"201000001802";
-
-const DISPLAY_PHONE =
-"01000001802";
-
-const CONTACT_EMAIL =
-"hussein.lashin@snapthename.com";
+const WHATSAPP_NUMBER = "201000001802";
+const CONTACT_EMAIL = "hussein.lashin@snapthename.com";
 
 
-/* =====================================================
-MOBILE MENU
-===================================================== */
+/* MOBILE MENU */
 
 const menuButton =
-document.getElementById(
-"menuButton"
-);
+document.getElementById("menuButton");
 
 const mainNav =
-document.getElementById(
-"mainNav"
-);
+document.getElementById("mainNav");
 
 
-if(
-menuButton &&
-mainNav
-){
+if(menuButton && mainNav){
 
 menuButton.addEventListener(
 "click",
 function(){
 
 const open =
-mainNav.classList.toggle(
-"open"
-);
+mainNav.classList.toggle("open");
 
 menuButton.setAttribute(
 "aria-expanded",
@@ -4365,9 +3148,7 @@ String(open)
 
 
 document
-.querySelectorAll(
-"#mainNav a"
-)
+.querySelectorAll("#mainNav a")
 .forEach(
 function(link){
 
@@ -4375,14 +3156,11 @@ link.addEventListener(
 "click",
 function(){
 
-mainNav.classList.remove(
-"open"
-);
+mainNav.classList.remove("open");
 
-menuButton.setAttribute(
-"aria-expanded",
-"false"
-);
+if(menuButton){
+menuButton.setAttribute("aria-expanded","false");
+}
 
 }
 );
@@ -4391,19 +3169,14 @@ menuButton.setAttribute(
 );
 
 
-/* =====================================================
-ANALYTICS
-===================================================== */
+/* ANALYTICS EVENTS */
 
 function track(
 eventName,
 parameters
 ){
 
-if(
-typeof window.gtag ===
-"function"
-){
+if(typeof window.gtag === "function"){
 
 window.gtag(
 "event",
@@ -4417,9 +3190,7 @@ parameters || {}
 
 
 document
-.querySelectorAll(
-"[data-track]"
-)
+.querySelectorAll("[data-track]")
 .forEach(
 function(element){
 
@@ -4430,13 +3201,8 @@ function(){
 track(
 "cta_click",
 {
-
-cta_name:
-element.dataset.track,
-
-page_path:
-window.location.pathname
-
+cta_name:element.dataset.track,
+page_path:window.location.pathname
 }
 );
 
@@ -4447,9 +3213,7 @@ window.location.pathname
 );
 
 
-/* =====================================================
-FORM HELPERS
-===================================================== */
+/* FORM HELPERS */
 
 function formToObject(form){
 
@@ -4463,56 +3227,38 @@ new FormData(form).entries()
 function readableLabel(key){
 
 return key
-
-.replaceAll(
-"_",
-" "
-)
-
+.replaceAll("_"," ")
 .replace(
 /\b\w/g,
 function(character){
-
 return character.toUpperCase();
-
 }
 );
 
 }
 
 
-function createLeadText(
-type,
-data
-){
+function createLeadText(type,data){
 
 let heading;
 
-if(
-type ===
-"advertising"
-){
+if(type === "advertising"){
 
-heading =
-"Advertising Enquiry";
+heading = "Advertising Enquiry";
 
 }else{
 
-heading =
-"Property Enquiry";
+heading = "Property Enquiry";
 
 }
 
 
 let text =
-
 "Hello EgyptMonorail.com" +
 "\n\n" +
-
 "I would like to submit a " +
 heading +
 "." +
-
 "\n\n";
 
 
@@ -4521,11 +3267,8 @@ Object.entries(data)
 .filter(
 function(entry){
 
-const key =
-entry[0];
-
-const value =
-entry[1];
+const key = entry[0];
+const value = entry[1];
 
 return (
 key !== "consent" &&
@@ -4539,15 +3282,9 @@ String(value).trim() !== ""
 function(entry){
 
 text +=
-
-readableLabel(
-entry[0]
-) +
-
+readableLabel(entry[0]) +
 ": " +
-
 entry[1] +
-
 "\n";
 
 }
@@ -4555,7 +3292,6 @@ entry[1] +
 
 
 text +=
-
 "\nSource: " +
 window.location.href;
 
@@ -4565,14 +3301,10 @@ return text;
 }
 
 
-/* =====================================================
-FORM SUBMISSION
-===================================================== */
+/* FORM SUBMISSION */
 
 document
-.querySelectorAll(
-"form[data-lead-type]"
-)
+.querySelectorAll("form[data-lead-type]")
 .forEach(
 function(form){
 
@@ -4583,9 +3315,7 @@ function(event){
 event.preventDefault();
 
 
-if(
-!form.checkValidity()
-){
+if(!form.checkValidity()){
 
 form.reportValidity();
 
@@ -4599,7 +3329,7 @@ event.submitter;
 
 
 const channel =
-submitButton
+submitButton && submitButton.dataset.channel
 ? submitButton.dataset.channel
 : "whatsapp";
 
@@ -4613,62 +3343,38 @@ formToObject(form);
 
 
 const message =
-createLeadText(
-type,
-data
-);
+createLeadText(type,data);
 
 
-/* Analytics */
+/* GA4 CUSTOM EVENT */
 
 track(
 "lead_form_submit",
 {
-
-lead_type:
-type,
-
-channel:
-channel,
-
-corridor:
-data.corridor || "",
-
-budget:
-data.budget || "",
-
-page_path:
-window.location.pathname
-
+lead_type:type,
+channel:channel,
+corridor:data.corridor || "",
+budget:data.budget || "",
+page_path:window.location.pathname
 }
 );
 
 
-/* Status */
+/* STATUS */
 
 const status =
-form.querySelector(
-".form-status"
-);
+form.querySelector(".form-status");
 
 
-/* WhatsApp */
+/* WHATSAPP */
 
-if(
-channel ===
-"whatsapp"
-){
+if(channel === "whatsapp"){
 
 const whatsappURL =
-
 "https://wa.me/" +
 WHATSAPP_NUMBER +
-
 "?text=" +
-
-encodeURIComponent(
-message
-);
+encodeURIComponent(message);
 
 
 if(status){
@@ -4690,15 +3396,11 @@ return;
 }
 
 
-/* Email */
+/* EMAIL */
 
 let subject;
 
-
-if(
-type ===
-"advertising"
-){
+if(type === "advertising"){
 
 subject =
 "EgyptMonorail.com - Advertising Enquiry";
@@ -4712,21 +3414,12 @@ subject =
 
 
 const mailtoURL =
-
 "mailto:" +
 CONTACT_EMAIL +
-
 "?subject=" +
-
-encodeURIComponent(
-subject
-) +
-
+encodeURIComponent(subject) +
 "&body=" +
-
-encodeURIComponent(
-message
-);
+encodeURIComponent(message);
 
 
 if(status){
@@ -4740,7 +3433,6 @@ status.textContent =
 window.location.href =
 mailtoURL;
 
-
 }
 );
 
@@ -4751,5 +3443,4 @@ mailtoURL;
 
 
 </body>
-
 </html>
